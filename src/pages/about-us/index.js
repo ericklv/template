@@ -1,12 +1,21 @@
 import React, {Component} from "react";
+import about from "./../../res/images/about.jpg"
+import biomont from "./../../res/images/biomont.png"
+import iqfarma from "./../../res/images/iqfarma.png"
+import oregon from "./../../res/images/oregon.png"
+import radiadores from "./../../res/images/radiadores.png"
+import gomelast from "./../../res/images/gomelast.png"
+import laritza from "./../../res/images/laritza.png"
+import renasa from "./../../res/images/renasa.png"
+import texfina from "./../../res/images/texfina.png"
 
 export default class AboutUs extends Component {
 
     render() {
         return (
+            <div>
             <div className="about-us-content">
                 <div className="about-us-text">
-                    <div>
                         <h1 style={{fontSize: "2.2rem", fontWeight:250}}>
                             Nuestra compañia
                         </h1>
@@ -28,13 +37,57 @@ export default class AboutUs extends Component {
                             de sistemas, analistas y programadores con amplia experiencia en el manejo de las múltiples
                             plataformas que representamos.
                         </p>
-                    </div>
-                    <div className="about-us-img"/>
                 </div>
-                <div style={{width: "100%", textAlign:"center", fontSize:"2rem", fontWeight:150}}>
+                    <div className="about-us-banner">
+                        <img src={about} alt="" height="100%" style={{maxWidth:"100%",height:"100%", maxHeight:"400px"}}/>
+                    </div>
+            </div>
+                <div style={{width: "100%", textAlign:"center", fontSize:"2rem", fontWeight:150, padding:"0 20px"}}>
                         Tenemos mas de 200 clientes en Peru y Mexico
                 </div>
-            </div>
+                <div className="about-us-clients">
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={biomont} alt="" height="100%" style={{height: "100px", maxWidth:"250px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={iqfarma} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={radiadores} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner" style={{background:"black"}}>
+                            <img src={gomelast} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={texfina} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={renasa} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={laritza} alt="" height="100%" style={{maxWidth:"250px",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="about-us-banner">
+                            <img src={oregon} alt="" height="100%" style={{maxWidth:"100%",height: "100px", maxHeight:"400px"}}/>
+                        </div>
+                    </div>
+                </div>
+        </div>
         )
     }
 };
