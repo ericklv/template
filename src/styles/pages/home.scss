@@ -1,0 +1,149 @@
+@import "../utils/utils.scss";
+
+.home {
+
+  border: 1px solid black;
+
+  @include tablet {
+    border: 1px solid $color_success;
+  }
+  @include desktop {
+    border: 1px solid $color_success;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media screen and (max-width: 812px) and (orientation: landscape) {
+    & {
+      min-height: 700px;
+      .home-banner {
+        max-height: 330px;
+      }
+    }
+  }
+  .home-banner {
+    //background: #8e8f90;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500vh;
+    max-height: 420px;
+
+    &-ant {
+      display: flex;
+      align-items: flex-end;
+      max-height: 100%;
+      width: 50%;
+
+      .home-banner-text {
+        margin-left: 30px;
+        margin-bottom: 50px;
+      }
+      p {
+        width: 80%;
+      }
+    }
+
+    &-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 50%;
+      img {
+        min-height: 180px;
+        height: 20vh;
+      }
+      @media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+        img {
+          height: 15vh;
+        }
+      }
+    }
+  }
+
+  .banner-background {
+    background: linear-gradient(to left,
+            rgba(253, 255, 252, 0.1),
+            rgba(2, 2, 2, 0.8)
+    ), url("https://previews.123rf.com/images/nostal6ie/nostal6ie1505/nostal6ie150500036/40079619-equipo-cables-y-tuber%C3%ADas-como-en-el-interior-de-una-moderna-planta-de-energ%C3%ADa-industrial-.jpg") center center;
+    background-size: cover;
+    h1, h2, h3, h4, p {
+      color: white !important;
+    }
+  }
+
+  .ibm-cloud-background {
+    background: darkcyan;
+    //background-image: linear-gradient(to left,
+    //        rgba(46, 196, 182, 0.6),
+    //        rgba(2, 2, 2, 0.5)
+    //), url("https://www.geo-tel.com/wp-content/uploads/2017/11/ibm-cloud-private-transforms-data-centers-cloud-storage.jpeg");
+    h1, h2, h3, h4, p {
+      color: white !important;
+    }
+    &:hover {
+
+    }
+  }
+
+  .ia-cloud-background {
+    background: #EF5350;
+    //background: linear-gradient(to left,
+    //        rgba(239, 83, 80, 0.6),
+    //        rgba(2, 2, 2, 0.6)
+    //), url("https://s3.amazonaws.com/files.cnas.org/title/AI-Hero.jpg?mtime=20170725094403") center center;
+    background-size: cover;
+    h1, h2, h3, h4, p {
+      color: white !important;
+    }
+  }
+
+  .home-sub-services {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div {
+      padding: 25px;
+      border:1px solid #f8f8f8;
+      text-align: center;
+      background: #fff;
+      border-radius: 4px;
+      margin: 20px 0;
+      width: 300px;
+    }
+  }
+
+  .home-sub-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .home-sub-info {
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      width: 50%;
+      max-height: 450px;
+    }
+
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      height: 100%;
+      .home-sub-info {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        p {
+          width: 90% !important;
+        }
+      }
+    }
+  }
+}
+
