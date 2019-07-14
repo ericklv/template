@@ -37,24 +37,24 @@ export default class BaseLayout extends Component {
                               mode="inline"
                               defaultSelectedKeys={[currentKey]}>
                             <Menu.Item key="home">
-                                <Link to="/about-us">
+                                <Link to="/about-us" onClick={() => this.toggle()}>
                                     <Icon type="home"/>
                                     <span>Compañia</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="users">
-                                <Link to="/services">
+                                <Link to="/services" onClick={() => this.toggle()}>
                                     <Icon type="user"/>
                                     <span>Servicios</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="companies">
+                            <Menu.Item key="companies" onClick={() => this.toggle()}>
                                 <Link to="/clients">
                                     <Icon type="bank"/>
                                     <span>Clientes</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="intranet">
+                            <Menu.Item key="intranet" onClick={() => this.toggle()}>
                                 <Link to="/intranet">
                                     <Icon type="bank"/>
                                     <span>Intranet</span>
