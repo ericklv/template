@@ -32,7 +32,7 @@ export default class BaseLayout extends Component {
                                   collapsible
                                   theme="light"
                                   collapsed={this.state.collapsed}>
-                        <div className="logoVersion"><b>MENU</b></div>
+                        <div className="logoVersion" onClick={()=> this.props.history.push("/")}><b>MENU</b></div>
                         <Menu theme="light"
                               mode="inline"
                               defaultSelectedKeys={[currentKey]}>
@@ -67,7 +67,7 @@ export default class BaseLayout extends Component {
                             <Icon className="trigger"
                                   type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
                                   onClick={this.toggle}/>
-                            <span className="projectTitle">Loginet Peru</span>
+                            <span className="projectTitle" onClick={()=> this.props.history.push("/")}>Loginet Peru</span>
                         </Layout.Header>
                         <Layout.Content style={{
                             background: '#fff',
