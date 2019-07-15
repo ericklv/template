@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/template/static/css/main.d80dcee1.chunk.css",
+    "main.js": "/template/static/js/main.7ec93288.chunk.js",
+    "main.js.map": "/template/static/js/main.7ec93288.chunk.js.map",
+    "runtime~main.js": "/template/static/js/runtime~main.5f941d51.js",
+    "runtime~main.js.map": "/template/static/js/runtime~main.5f941d51.js.map",
+    "static/css/2.c540f079.chunk.css": "/template/static/css/2.c540f079.chunk.css",
+    "static/js/2.e6aac086.chunk.js": "/template/static/js/2.e6aac086.chunk.js",
+    "static/js/2.e6aac086.chunk.js.map": "/template/static/js/2.e6aac086.chunk.js.map",
+    "index.html": "/template/index.html",
+    "precache-manifest.a98bce4430416eb96fac7bc8562c55a9.js": "/template/precache-manifest.a98bce4430416eb96fac7bc8562c55a9.js",
+    "service-worker.js": "/template/service-worker.js",
+    "static/css/2.c540f079.chunk.css.map": "/template/static/css/2.c540f079.chunk.css.map",
+    "static/css/main.d80dcee1.chunk.css.map": "/template/static/css/main.d80dcee1.chunk.css.map",
+    "static/media/about.jpg": "/template/static/media/about.602a7864.jpg",
+    "static/media/ant.png": "/template/static/media/ant.d7e8be7d.png",
+    "static/media/biomont.png": "/template/static/media/biomont.1a9f5a86.png",
+    "static/media/iqfarma.png": "/template/static/media/iqfarma.02208821.png",
+    "static/media/laritza.png": "/template/static/media/laritza.a1065787.png",
+    "static/media/oregon.png": "/template/static/media/oregon.19f2e4c7.png",
+    "static/media/radiadores.png": "/template/static/media/radiadores.379d8861.png",
+    "static/media/renasa.png": "/template/static/media/renasa.6527941c.png",
+    "static/media/texfina.png": "/template/static/media/texfina.9c957b47.png"
+  }
+}
