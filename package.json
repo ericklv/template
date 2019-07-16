@@ -2,6 +2,9 @@
   "name": "loginet",
 //  "homepage": "https://ericklv.github.io/template/",
   "version": "0.1.0",
+  "engines": {
+    "node": "8"
+  },
   "private": true,
   "dependencies": {
     "@firebase/app": "^0.4.7",
