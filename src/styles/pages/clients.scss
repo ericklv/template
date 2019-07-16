@@ -1,0 +1,16 @@
+.all-clients{
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  //background: red;
+  display: flex;
+  flex-wrap: wrap;
+  //padding: 40px;
+  div{
+    margin: 10px;
+  }
+}
+
+.clients-text{
+  width: 100%;
+}

@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Route, Switch} from "react-router-dom";
 import {Redirect} from "react-router";
-import {AboutUs, Error, Home} from "../pages";
+import {AboutUs, Clients, Error, Home, Services} from "../pages";
 import {BaseLayout} from "../components";
 import PrivateRoute from "./PrivateRoute";
 
@@ -21,7 +21,7 @@ export default class Routes extends Component {
                 <PrivateRoute exact
                               path="/services">
                     <BaseLayout {...this.props}>
-                        <Home/>
+                        <Services/>
                     </BaseLayout>
                 </PrivateRoute>
                 <PrivateRoute exact
@@ -33,7 +33,7 @@ export default class Routes extends Component {
                 <PrivateRoute exact
                               path="/clients">
                     <BaseLayout {...this.props}>
-                        <Home/>
+                        <Clients/>
                     </BaseLayout>
                 </PrivateRoute>
                 <Redirect to="/"/>
