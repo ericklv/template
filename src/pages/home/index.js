@@ -14,7 +14,7 @@ export default class Home extends Component {
                             <h2 style={{fontSize: "2.5rem"}}>ANT ERP</h2>
                             <p>Por fin un ERP Industrial de Manufactura y Servicio al
                                 alcance de las PYMES.</p>
-                            <Button style={{width: "100px"}}>Leer mas</Button>
+                            <Button style={{width: "100px"}} onClick={() => this.props.history.push("/ant")}>Leer mas</Button>
                         </div>
                     </div>
                     <div className="home-banner-image">
