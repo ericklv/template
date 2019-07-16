@@ -43,9 +43,9 @@ export default class BaseLayout extends Component {
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="users">
-                                <Link to="/services" onClick={() => this.toggle()}>
+                                <Link to="/ant" onClick={() => this.toggle()}>
                                     <Icon type="user"/>
-                                    <span>Servicios</span>
+                                    <span>ANT ERP</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="companies" onClick={() => this.toggle()}>

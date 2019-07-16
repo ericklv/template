@@ -1,0 +1,70 @@
+.ant-content {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .ant-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    @media (max-width: 767px) {
+      min-width: 100%;
+    }
+  }
+
+  .ant-text {
+    padding: 20px;
+    width: 50%;
+    min-width: 50%;
+    p {
+      text-align: justify;
+    }
+    @media (max-width: 767px) {
+      padding: 20px 0;
+      min-width: 100%;
+    }
+  }
+
+  .ant-img {
+    border: 1px solid red;
+    width: 50%;
+    img {
+      display: block;
+      width: 100% !important;
+      height: 200px !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.ant-clients {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  //background: red;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  div {
+    margin: 10px;
+  }
+  .functionalities {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .functionality {
+      padding: 15px;
+      border: 1px #f9f9f9 solid;
+      background: #fff;
+      max-width: 200px;
+      min-width: 30%;
+      -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.18);
+      -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.18);
+      box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.18);
+    }
+  }
+}
