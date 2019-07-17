@@ -14,7 +14,8 @@ export default class Home extends Component {
                             <h2 style={{fontSize: "2.5rem"}}>ANT ERP</h2>
                             <p>Por fin un ERP Industrial de Manufactura y Servicio al
                                 alcance de las PYMES.</p>
-                            <Button style={{width: "100px"}} onClick={() => this.props.history.push("/ant")}>Leer mas</Button>
+                            <Button style={{width: "100px"}}
+                                    onClick={() => this.props.history.push("/ant")}>Leer mas</Button>
                         </div>
                     </div>
                     <div className="home-banner-image">
@@ -30,7 +31,8 @@ export default class Home extends Component {
                                 confiado miles de
                                 empresas de más de 20 industrias por su proceso de cambio más rápido y seguro a
                                 la nube.</p>
-                            <Button style={{width: "100px"}}>Leer mas</Button>
+                            <Button style={{width: "100px"}}
+                                    onClick={() => this.props.history.push("/ibm")}>Leer mas</Button>
                         </div>
                     </div>
                     <div className="home-sub-info ia-cloud-background">
@@ -41,7 +43,8 @@ export default class Home extends Component {
                                 realidad en los negocios.
                                 Para hacer frente a los desafíos actuales y prepararse para el futuro, son necesarias
                                 soluciones de IA que se integren con su infraestructura y su estrategia de datos .</p>
-                            <Button style={{width: "100px"}}>Leer mas</Button>
+                            <Button style={{width: "100px"}}
+                                    onClick={() => this.props.history.push("/ibm")}>Leer mas</Button>
                         </div>
                     </div>
                 </div>

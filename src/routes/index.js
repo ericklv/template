@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Route, Switch} from "react-router-dom";
 import {Redirect} from "react-router";
-import {AboutUs, Clients, Error, Home, Ant} from "../pages";
+import {AboutUs, Clients, Error, Home, Ant, Ibm} from "../pages";
 import {BaseLayout} from "../components";
 import PrivateRoute from "./PrivateRoute";
 
@@ -22,6 +22,12 @@ export default class Routes extends Component {
                               path="/ant">
                     <BaseLayout {...this.props}>
                         <Ant/>
+                    </BaseLayout>
+                </PrivateRoute>
+                <PrivateRoute exact
+                              path="/ibm">
+                    <BaseLayout {...this.props}>
+                        <Ibm/>
                     </BaseLayout>
                 </PrivateRoute>
                 <PrivateRoute exact
