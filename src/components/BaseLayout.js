@@ -32,29 +32,44 @@ export default class BaseLayout extends Component {
                                   collapsible
                                   theme="light"
                                   collapsed={this.state.collapsed}>
-                        <div className="logoVersion" onClick={()=> this.props.history.push("/")}><b>MENU</b></div>
+                        <div className="logoVersion"
+                             onClick={() => {
+                                 this.props.history.push("/");
+                                 this.toggle()
+                             }}><b>MENU</b></div>
                         <Menu theme="light"
                               mode="inline"
                               defaultSelectedKeys={[currentKey]}>
                             <Menu.Item key="home">
-                                <Link to="/about-us" onClick={() => this.toggle()}>
+                                <Link to="/about-us"
+                                      onClick={() => this.toggle()}>
                                     <Icon type="home"/>
                                     <span>Compañia</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="users">
-                                <Link to="/ant" onClick={() => this.toggle()}>
+                                <Link to="/ant"
+                                      onClick={() => this.toggle()}>
                                     <Icon type="user"/>
                                     <span>ANT ERP</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="companies" onClick={() => this.toggle()}>
+                            <Menu.Item key="users">
+                                <Link to="/ant"
+                                      onClick={() => this.toggle()}>
+                                    <Icon type="user"/>
+                                    <span>IBM</span>
+                                </Link>
+                            </Menu.Item>
+                            <Menu.Item key="companies"
+                                       onClick={() => this.toggle()}>
                                 <Link to="/clients">
                                     <Icon type="bank"/>
                                     <span>Clientes</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="intranet" onClick={() => this.toggle()}>
+                            <Menu.Item key="intranet"
+                                       onClick={() => this.toggle()}>
                                 <Link to="/intranet">
                                     <Icon type="bank"/>
                                     <span>Intranet</span>
@@ -67,7 +82,11 @@ export default class BaseLayout extends Component {
                             <Icon className="trigger"
                                   type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
                                   onClick={this.toggle}/>
-                            <span className="projectTitle" onClick={()=> this.props.history.push("/")}>Loginet Peru</span>
+                            <span className="projectTitle"
+                                  onClick={() => {
+                                      this.props.history.push("/");
+                                      this.toggle();
+                                  }}>Loginet Peru</span>
                         </Layout.Header>
                         <Layout.Content style={{
                             background: '#fff',
@@ -107,7 +126,7 @@ export default class BaseLayout extends Component {
                                     </div>
                                     <div className="footer-text">
                                         <ul><label className="footer-text-title">
-                                                PARTNERS & PROGRAMAS
+                                            PARTNERS & PROGRAMAS
                                         </label>
                                             <li>IBM</li>
                                             <li>SoftLayer</li>

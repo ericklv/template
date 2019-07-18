@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ant from "./../../res/images/ant.jpg"
 
-export default class Ant extends Component {
+export default class Ibm extends Component {
 
     render() {
         return (

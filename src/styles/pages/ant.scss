@@ -67,4 +67,24 @@
       box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.18);
     }
   }
+  @media (max-width: 767px) and (orientation: portrait) {
+    &{
+      padding: 10px;
+      .functionalities{
+        .functionality{
+          max-width: 95%;
+        }
+      }
+    }
+  }
+  @media (max-width: 812px) and (orientation: landscape) {
+    &{
+      padding: 10px;
+      .functionalities{
+        .functionality{
+          max-width: 45%;
+        }
+      }
+    }
+  }
 }
