@@ -55,7 +55,7 @@ export default class BaseLayout extends Component {
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="users">
-                                <Link to="/ant"
+                                <Link to="/ibm"
                                       onClick={() => this.toggle()}>
                                     <Icon type="user"/>
                                     <span>IBM</span>
@@ -85,7 +85,7 @@ export default class BaseLayout extends Component {
                             <span className="projectTitle"
                                   onClick={() => {
                                       this.props.history.push("/");
-                                      this.toggle();
+                                      this.setState({collapsed: true});
                                   }}>Loginet Peru</span>
                         </Layout.Header>
                         <Layout.Content style={{
