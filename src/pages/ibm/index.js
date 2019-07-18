@@ -29,7 +29,7 @@ export default class Ibm extends Component {
                     </div>
                 </div>
                 <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "0 20px"}}>
-                    Funcionalidades
+                    IBM Cloud vs la competencia
                 </div>
                 <div className="ant-clients">
                     <div className="functionalities">
