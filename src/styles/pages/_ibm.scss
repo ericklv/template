@@ -1,0 +1,44 @@
+.ibm-content{
+  background: #f0f2f4;
+  .ibm-content-text{
+    background: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .ant-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      @media (max-width: 767px) {
+        min-width: 100%;
+      }
+    }
+
+    .ant-text {
+      padding: 20px;
+      width: 50%;
+      min-width: 50%;
+      p {
+        text-align: justify;
+      }
+      @media (max-width: 767px) {
+        padding: 20px 0;
+        min-width: 100%;
+      }
+    }
+
+    .ant-img {
+      border: 1px solid red;
+      width: 50%;
+      img {
+        display: block;
+        width: 100% !important;
+        height: 200px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}

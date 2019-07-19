@@ -5,10 +5,10 @@ export default class Ant extends Component {
 
     render() {
         return (
-            <div>
-                <div className="ant-content">
+            <div className="ant-content">
+                <div className="ant-content-text">
                     <div className="ant-text">
-                        <h1 style={{fontSize: "2.2rem", fontWeight: 250}}>
+                        <h1 style={{fontSize: "2.2rem", fontWeight: 250, color: "#ff7832"}}>
                             ANT ERP
                         </h1>
                         <p>
@@ -34,7 +34,7 @@ export default class Ant extends Component {
                              style={{maxWidth: "100%", height: "100%", maxHeight: "400px"}}/>
                     </div>
                 </div>
-                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "0 20px"}}>
+                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
                     Funcionalidades
                 </div>
                 <div className="ant-clients">

@@ -5,12 +5,27 @@ export default class Ibm extends Component {
 
     render() {
         return (
-            <div>
-                <div className="ant-content">
+            <div className="ibm-content">
+                <div className="ibm-content-text">
                     <div className="ant-text">
-                        <h1 style={{fontSize: "2.2rem", fontWeight: 250}}>
+                        <h1 style={{fontSize: "2.2rem", fontWeight: 250, color: "#008571"}}>
                             IBM Cloud
                         </h1>
+                        <p>
+                            Softlayer : es la solución líder del sector en infraestructura Cloud - interconectada,
+                            inteligente e instrumentada, otorgando a IBM Cloud funcionalidades exclusivas. Ofrece un
+                            motor de alto rendimiento —servidores bare metal; dispositivos de seguridad, redes y
+                            almacenamiento, etc...— desplegado en 40 centros de datos de todo el mundo.
+                            Este motor queda ensamblado mediante una arquitectura de red avanzada que cubre (pero
+                            segrega de forma segura) Internet público, una red privada y una red de gestión interna.
+                        </p>
+                        <p>
+                            Todo ello está conectado y controlado mediante un único sistema de gestión integral. En el
+                            mercado actual no hay otra plataforma construida con el nivel de inteligencia que se ha
+                            integrado en la plataforma de Softlayer. Las potentes APIs (con más de 1.600 funciones)
+                            permiten a los clientes programar sus aplicaciones y sistemas para gestionar automáticamente
+                            su infraestructura en la plataforma Softlayer.
+                        </p>
                         <p>
                             El SoftLayer del que tanto ha escuchado es ahora la base de IBM Cloud. Todavía estamos
                             entregando la misma infraestructura de nube increíble en una escala aún mayor.
@@ -28,7 +43,7 @@ export default class Ibm extends Component {
                              style={{maxWidth: "100%", height: "100%", maxHeight: "400px"}}/>
                     </div>
                 </div>
-                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "0 20px"}}>
+                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
                     IBM Cloud vs la competencia
                 </div>
                 <div className="ant-clients">
