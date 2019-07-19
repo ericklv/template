@@ -40,43 +40,41 @@ export default class BaseLayout extends Component {
                               mode="inline"
                               defaultSelectedKeys={[currentKey]}>
                             <Menu.Item key="home">
-                                <Link to="/about-us"
+                                <Link className="text-link-menu"
+                                      to="/about-us"
                                       onClick={() => this.toggle()}>
                                     <Icon type="home"/>
                                     <span>Compañia</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="ant">
-                                <Link to="/ant"
+                                <Link className="text-link-menu"
+                                      to="/ant"
                                       onClick={() => this.toggle()}>
-                                    <Icon type="bank"/>
+                                    <Icon type="bug"/>
                                     <span>ANT ERP</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="ibm">
-                                <Link to="/ibm"
+                                <Link className="text-link-menu"
+                                      to="/ibm"
                                       onClick={() => this.toggle()}>
-                                    <Icon type="bank"/>
-                                    <span>IBM</span>
+                                    <Icon type="cloud-server"/>
+                                    <span>IBM Cloud</span>
                                 </Link>
                             </Menu.Item>
                             <Menu.Item key="clients"
                                        onClick={() => this.toggle()}>
-                                <Link to="/clients">
-                                    <Icon type="bank"/>
+                                <Link className="text-link-menu"
+                                      to="/clients">
+                                    <Icon type="team"/>
                                     <span>Clientes</span>
                                 </Link>
                             </Menu.Item>
-                            {/*<Menu.Item key="contact-us"*/}
-                            {/*onClick={() => this.toggle()}>*/}
-                            {/*<Link to="/contact-us">*/}
-                            {/*<Icon type="bank"/>*/}
-                            {/*<span>Contactanos</span>*/}
-                            {/*</Link>*/}
-                            {/*</Menu.Item>*/}
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
-                                <Link to="/intranet">
+                                <Link className="text-link-menu"
+                                      to="/intranet">
                                     <Icon type="user"/>
                                     <span>Intranet</span>
                                 </Link>
