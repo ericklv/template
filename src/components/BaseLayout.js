@@ -67,6 +67,13 @@ export default class BaseLayout extends Component {
                                     <span>Clientes</span>
                                 </Link>
                             </Menu.Item>
+                            <Menu.Item key="contact-us"
+                                       onClick={() => this.toggle()}>
+                                <Link to="/contact-us">
+                                    <Icon type="bank"/>
+                                    <span>Contactanos</span>
+                                </Link>
+                            </Menu.Item>
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
                                 <Link to="/intranet">
@@ -98,38 +105,59 @@ export default class BaseLayout extends Component {
                                 <div className="footer-options">
                                     <div className="footer-text">
                                         <ul><span onClick={() => this.props.history.push("/")}
-                                                  className="footer-text-title">INICIO</span></ul>
+                                                  className="footer-text-title links">INICIO</span></ul>
                                         <ul><label className="footer-text-title">
                                             PRODUCTOS
                                         </label>
-                                            <li onClick={() => this.props.history.push("/ant")}>ERP Ant</li>
-                                            <li onClick={() => this.props.history.push("/ibm")}>IBM Cloud</li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ant")}>ERP Ant
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud
+                                            </li>
                                         </ul>
-                                        <ul onClick={() => this.props.history.push("/")}>
+                                        <ul>
                                             <label className="footer-text-title">
                                                 SERVICIOS
                                             </label>
-                                            <li>Soporte IBM DB2.</li>
-                                            <li>Soporte y Capacitación ANT.</li>
-                                            <li>Consultoría ANT en Procesos Industriales.</li>
-                                            <li>Soporte Softlayer.</li>
-                                            <li>Financiamiento Loginet.</li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>Soporte IBM DB2.
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ant")}>Soporte y Capacitación
+                                                ANT.
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ant")}>Consultoría ANT en
+                                                Procesos Industriales.
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>Soporte Softlayer.
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/about-us")}>Financiamiento
+                                                Loginet.
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="footer-text">
                                         <ul><span onClick={() => this.props.history.push("/about-us")}
-                                                  className="footer-text-title">COMPAÑIA</span></ul>
+                                                  className="footer-text-title links">COMPAÑIA</span></ul>
                                         <ul><span onClick={() => this.props.history.push("/clients")}
-                                                  className="footer-text-title">CLIENTES</span></ul>
+                                                  className="footer-text-title links">CLIENTES</span></ul>
                                         <ul><span onClick={() => this.props.history.push("/contact-us")}
-                                                  className="footer-text-title">CONTACTENOS</span></ul>
+                                                  className="footer-text-title links">CONTACTENOS</span></ul>
                                     </div>
                                     <div className="footer-text">
                                         <ul><label className="footer-text-title">
                                             PARTNERS & PROGRAMAS
                                         </label>
-                                            <li>IBM</li>
-                                            <li>SoftLayer</li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>IBM
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud / SoftLayer
+                                            </li>
                                         </ul>
 
                                     </div>

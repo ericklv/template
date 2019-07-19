@@ -37,6 +37,12 @@ export default class Routes extends Component {
                     </BaseLayout>
                 </PrivateRoute>
                 <PrivateRoute exact
+                              path="/contact-us">
+                    <BaseLayout {...this.props}>
+                        <AboutUs/>
+                    </BaseLayout>
+                </PrivateRoute>
+                <PrivateRoute exact
                               path="/clients">
                     <BaseLayout {...this.props}>
                         <Clients/>

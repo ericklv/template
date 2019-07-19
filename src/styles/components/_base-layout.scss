@@ -110,4 +110,10 @@
 .ant-layout-footer {
   color: white;
   background: #001529;
+  .links{
+    &:hover{
+      text-underline: auto;
+      cursor: pointer;
+    }
+  }
 }
