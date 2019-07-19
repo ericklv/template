@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Avatar, Button, Card, Form, Input} from 'antd';
+import React, {Component} from "react";
+import {Avatar, Button, Card, Form, Input} from "antd";
 import {prefixIcon} from "../../utils";
 
 const login = Form.create()(
@@ -28,7 +28,7 @@ const login = Form.create()(
                             <div style={{textAlign: "center"}}>
                                 <Form.Item style={{marginBottom: "20px"}}>
                                     <Avatar size={100}
-                                            style={{backgroundColor: '#1890ff'}}
+                                            style={{backgroundColor: "#1890ff"}}
                                             icon="team"/>
                                 </Form.Item>
                             </div>
