@@ -1,6 +1,11 @@
 import React, {Component} from "react";
 import {Button} from "antd";
 import ant from "./../../res/images/ant.png";
+import ant2 from "./../../res/images/ant2.png";
+import db2 from "./../../res/images/db2.png";
+import ibmcloud from "./../../res/images/ibm-cloud.png";
+import consultancy from "./../../res/images/consultancy.png";
+import financial from "./../../res/images/financial.png";
 
 export default class Home extends Component {
 
@@ -50,6 +55,8 @@ export default class Home extends Component {
                 </div>
                 <div className="home-sub-services">
                     <div>
+                        <img src={db2}
+                             style={{maxWidth: "120px"}}/>
                         <h2>
                             Soporte BM DB2
                         </h2>
@@ -58,6 +65,8 @@ export default class Home extends Component {
                         </p>
                     </div>
                     <div>
+                        <img src={ant2}
+                             style={{maxWidth: "120px"}}/>
                         <h2>
                             Soporte y Capacitación ANT
                         </h2>
@@ -67,6 +76,8 @@ export default class Home extends Component {
                         </p>
                     </div>
                     <div>
+                        <img src={consultancy}
+                             style={{maxWidth: "120px"}}/>
                         <h2>
                             Consultoría ANT en Procesos Industriales
                         </h2>
@@ -76,8 +87,10 @@ export default class Home extends Component {
                         </p>
                     </div>
                     <div>
+                        <img src={ibmcloud}
+                             style={{maxWidth: "120px"}}/>
                         <h2>
-                            Soporte Softlayer
+                            Soporte Softlayer / IBM Cloud
                         </h2>
                         <p>
                             Nuestros Técnicos se encargan de gestionar las labores de servicio dentro del ambiente
@@ -85,6 +98,8 @@ export default class Home extends Component {
                         </p>
                     </div>
                     <div>
+                        <img src={financial}
+                             style={{maxWidth: "120px"}}/>
                         <h2>Financiamiento Loginet</h2>
                         <p>
                             Contamos con una oferta de Financiamiento directo para la adquisición de sus servicios.
