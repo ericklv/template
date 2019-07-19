@@ -99,11 +99,11 @@ export default class Home extends Component {
                         <img src={ibmcloud}
                              style={{maxWidth: "120px"}}/>
                         <h2>
-                            Soporte Softlayer / IBM Cloud
+                            IBM Cloud
                         </h2>
                         <p>
                             Nuestros Técnicos se encargan de gestionar las labores de servicio dentro del ambiente
-                            Softlayer .
+                            IBM Cloud.
                         </p>
                     </div>
                     <div>

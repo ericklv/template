@@ -132,7 +132,7 @@ export default class BaseLayout extends Component {
                                                 Procesos Industriales.
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>Soporte Softlayer.
+                                                onClick={() => this.props.history.push("/ibm")}>Soporte IBM Cloud.
                                             </li>
                                             <li className="links"
                                                 onClick={() => this.props.history.push("/about-us")}>Financiamiento
