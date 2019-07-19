@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Avatar, Button, Card, Form, Input} from 'antd';
-import {trim} from "lodash";
 import {prefixIcon} from "../../utils";
 
 const login = Form.create()(
