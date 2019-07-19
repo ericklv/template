@@ -31,7 +31,7 @@ export default class Home extends Component {
                 <div className="home-sub-content">
                     <div className="home-sub-info ibm-cloud-background">
                         <div>
-                            <h2 style={{width: "60%"}}>Esto no es solo una nube es <b>IBM Cloud.</b></h2>
+                            <h2 style={{width: "60%"}}>Esto no es solo una nube es <br/><b>IBM Cloud.</b></h2>
                             <p style={{width: "60%"}}>IBM Cloud es la nube para un negocio más inteligente En ella han
                                 confiado miles de
                                 empresas de más de 20 industrias por su proceso de cambio más rápido y seguro a
@@ -42,7 +42,8 @@ export default class Home extends Component {
                     </div>
                     <div className="home-sub-info ia-cloud-background">
                         <div>
-                            <h2 style={{width: "80%"}}>Ingrese al futuro de los negocios <br/><b>Infraestructura de la IA de
+                            <h2 style={{width: "80%"}}>Ingrese al futuro de los negocios <br/><b>Infraestructura de la
+                                IA de
                                 IBM</b></h2>
                             <p style={{width: "60%"}}>La tecnología de IA se ha movido de la ciencia ficción hacia la
                                 realidad en los negocios.
