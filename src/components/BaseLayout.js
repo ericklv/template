@@ -67,13 +67,13 @@ export default class BaseLayout extends Component {
                                     <span>Clientes</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="contact-us"
-                                       onClick={() => this.toggle()}>
-                                <Link to="/contact-us">
-                                    <Icon type="bank"/>
-                                    <span>Contactanos</span>
-                                </Link>
-                            </Menu.Item>
+                            {/*<Menu.Item key="contact-us"*/}
+                            {/*onClick={() => this.toggle()}>*/}
+                            {/*<Link to="/contact-us">*/}
+                            {/*<Icon type="bank"/>*/}
+                            {/*<span>Contactanos</span>*/}
+                            {/*</Link>*/}
+                            {/*</Menu.Item>*/}
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
                                 <Link to="/intranet">
@@ -85,14 +85,24 @@ export default class BaseLayout extends Component {
                     </Layout.Sider>
                     <Layout>
                         <Layout.Header className="base-layout-header">
-                            <Icon className="trigger"
-                                  type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
-                                  onClick={this.toggle}/>
-                            <span className="projectTitle"
-                                  onClick={() => {
-                                      this.props.history.push("/");
-                                      this.setState({collapsed: true});
-                                  }}>Loginet Peru</span>
+                            <div>
+                                <Icon className="trigger"
+                                      type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
+                                      onClick={this.toggle}/>
+                                <span className="projectTitle"
+                                      onClick={() => {
+                                          this.props.history.push("/");
+                                          this.setState({collapsed: true});
+                                      }}>Loginet Peru</span>
+                            </div>
+                            <Menu
+                                theme="light"
+                                mode="horizontal"
+                                style={{ lineHeight: '63px' }}
+                            >
+                                <Menu.Item key="1" className="contact-us">Contáctanos</Menu.Item>
+                                <Menu.Item key="2" className="intranet">Intranet</Menu.Item>
+                            </Menu>
                         </Layout.Header>
                         <Layout.Content style={{
                             background: '#fff',
