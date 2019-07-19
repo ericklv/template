@@ -34,7 +34,6 @@ export default class BaseLayout extends Component {
                                   collapsed={this.state.collapsed}>
                         <div className="logoVersion"
                              onClick={() => {
-                                 this.props.history.push("/");
                                  this.toggle()
                              }}><b>MENU</b></div>
                         <Menu theme="light"

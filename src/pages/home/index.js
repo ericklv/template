@@ -42,7 +42,7 @@ export default class Home extends Component {
                     </div>
                     <div className="home-sub-info ia-cloud-background">
                         <div>
-                            <h2 style={{width: "80%"}}>Ingrese al futuro de los negocios <b>Infraestructura de la IA de
+                            <h2 style={{width: "80%"}}>Ingrese al futuro de los negocios <br/><b>Infraestructura de la IA de
                                 IBM</b></h2>
                             <p style={{width: "60%"}}>La tecnología de IA se ha movido de la ciencia ficción hacia la
                                 realidad en los negocios.
