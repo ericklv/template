@@ -54,7 +54,13 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div className="home-sub-services">
-                    <h2 style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
+                    <h2 style={{
+                        width: "100%",
+                        textAlign: "center",
+                        fontSize: "2rem",
+                        fontWeight: 150,
+                        padding: "25px 20px 0 20px"
+                    }}>
                         Servicios
                     </h2>
                     <div>
@@ -69,7 +75,7 @@ export default class Home extends Component {
                     </div>
                     <div>
                         <img src={ant2}
-                             style={{maxWidth: "120px"}}/>
+                             style={{maxWidth: "120px", paddingBottom: "7px"}}/>
                         <h2>
                             Soporte y Capacitación ANT
                         </h2>
@@ -80,7 +86,7 @@ export default class Home extends Component {
                     </div>
                     <div>
                         <img src={consultancy}
-                             style={{maxWidth: "120px"}}/>
+                             style={{maxWidth: "120px", paddingBottom: "7px"}}/>
                         <h2>
                             Consultoría ANT en Procesos Industriales
                         </h2>
@@ -102,7 +108,7 @@ export default class Home extends Component {
                     </div>
                     <div>
                         <img src={financial}
-                             style={{maxWidth: "120px"}}/>
+                             style={{maxWidth: "120px", paddingBottom: "7px"}}/>
                         <h2>Financiamiento Loginet</h2>
                         <p>
                             Contamos con una oferta de Financiamiento directo para la adquisición de sus servicios.
