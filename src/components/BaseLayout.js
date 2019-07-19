@@ -46,21 +46,21 @@ export default class BaseLayout extends Component {
                                     <span>Compañia</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="users">
+                            <Menu.Item key="ant">
                                 <Link to="/ant"
                                       onClick={() => this.toggle()}>
-                                    <Icon type="user"/>
+                                    <Icon type="bank"/>
                                     <span>ANT ERP</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="users">
+                            <Menu.Item key="ibm">
                                 <Link to="/ibm"
                                       onClick={() => this.toggle()}>
-                                    <Icon type="user"/>
+                                    <Icon type="bank"/>
                                     <span>IBM</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="companies"
+                            <Menu.Item key="clients"
                                        onClick={() => this.toggle()}>
                                 <Link to="/clients">
                                     <Icon type="bank"/>
@@ -77,7 +77,7 @@ export default class BaseLayout extends Component {
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
                                 <Link to="/intranet">
-                                    <Icon type="bank"/>
+                                    <Icon type="user"/>
                                     <span>Intranet</span>
                                 </Link>
                             </Menu.Item>
@@ -98,10 +98,18 @@ export default class BaseLayout extends Component {
                             <Menu
                                 theme="light"
                                 mode="horizontal"
-                                style={{ lineHeight: '63px' }}
+                                style={{lineHeight: '63px'}}
                             >
-                                <Menu.Item key="1" className="contact-us">Contáctanos</Menu.Item>
-                                <Menu.Item key="2" className="intranet">Intranet</Menu.Item>
+                                <Menu.Item key="1"
+                                           className="contact-us">
+                                    <Icon type="mail"/>
+                                    <span className="text-menu">Contáctanos</span>
+                                </Menu.Item>
+                                <Menu.Item key="2"
+                                           className="intranet">
+                                    <Icon type="user"/>
+                                    <span className="text-menu">Intranet</span>
+                                </Menu.Item>
                             </Menu>
                         </Layout.Header>
                         <Layout.Content style={{
