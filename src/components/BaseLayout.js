@@ -98,17 +98,18 @@ export default class BaseLayout extends Component {
                             <div className="base-layout-footer">
                                 <div className="footer-options">
                                     <div className="footer-text">
-                                        <ul><a href="#"
-                                               className="footer-text-title">INICIO</a></ul>
+                                        <ul><span onClick={() => this.props.history.push("/")}
+                                                  className="footer-text-title">INICIO</span></ul>
                                         <ul><label className="footer-text-title">
                                             PRODUCTOS
                                         </label>
-                                            <li>ERP Ant</li>
-                                            <li>IBM Cloud</li>
+                                            <li onClick={() => this.props.history.push("/ant")}>ERP Ant</li>
+                                            <li onClick={() => this.props.history.push("/ibm")}>IBM Cloud</li>
                                         </ul>
-                                        <ul><label className="footer-text-title">
-                                            SERVICIOS
-                                        </label>
+                                        <ul onClick={() => this.props.history.push("/")}>
+                                            <label className="footer-text-title">
+                                                SERVICIOS
+                                            </label>
                                             <li>Soporte IBM DB2.</li>
                                             <li>Soporte y Capacitación ANT.</li>
                                             <li>Consultoría ANT en Procesos Industriales.</li>
@@ -117,12 +118,12 @@ export default class BaseLayout extends Component {
                                         </ul>
                                     </div>
                                     <div className="footer-text">
-                                        <ul><a href="#"
-                                               className="footer-text-title">COMPAÑIA</a></ul>
-                                        <ul><a href="#"
-                                               className="footer-text-title">CLIENTES</a></ul>
-                                        <ul><a href="#"
-                                               className="footer-text-title">CONTACTENOS</a></ul>
+                                        <ul><span onClick={() => this.props.history.push("/about-us")}
+                                                  className="footer-text-title">COMPAÑIA</span></ul>
+                                        <ul><span onClick={() => this.props.history.push("/clients")}
+                                                  className="footer-text-title">CLIENTES</span></ul>
+                                        <ul><span onClick={() => this.props.history.push("/contact-us")}
+                                                  className="footer-text-title">CONTACTENOS</span></ul>
                                     </div>
                                     <div className="footer-text">
                                         <ul><label className="footer-text-title">
