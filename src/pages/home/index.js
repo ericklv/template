@@ -54,6 +54,9 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div className="home-sub-services">
+                    <h2 style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
+                        Servicios
+                    </h2>
                     <div>
                         <img src={db2}
                              style={{maxWidth: "120px"}}/>
