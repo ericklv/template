@@ -4,7 +4,7 @@ import ant from "./../../res/images/ant.png";
 import ant2 from "./../../res/images/ant2.png";
 import db2 from "./../../res/images/db2.png";
 import ibmcloud from "./../../res/images/ibm-cloud.png";
-import consultancy from "./../../res/images/consultancy.png";
+import invoice from "./../../res/images/invoice.png";
 import financial from "./../../res/images/financial.png";
 
 export default class Home extends Component {
@@ -86,14 +86,13 @@ export default class Home extends Component {
                         </p>
                     </div>
                     <div>
-                        <img src={consultancy}
+                        <img src={invoice}
                              style={{maxWidth: "120px", paddingBottom: "7px"}}/>
                         <h2>
-                            Consultoría ANT en Procesos Industriales
+                            Facturación Electrónica
                         </h2>
                         <p>
-                            Tenemos un área de Consultoría especializada en procesos Industriales y empresas de
-                            Servicio.
+                            Contamos con emisión de factura electrónica para mypes.
                         </p>
                     </div>
                     <div>

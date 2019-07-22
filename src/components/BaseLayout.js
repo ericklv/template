@@ -172,7 +172,10 @@ export default class BaseLayout extends Component {
                                                 onClick={() => this.props.history.push("/ibm")}>IBM
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud / SoftLayer
+                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud
+                                            </li>
+                                            <li className="links"
+                                                onClick={() => this.props.history.push("/ibm")}>IBM Cognos
                                             </li>
                                         </ul>
 
