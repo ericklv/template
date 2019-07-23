@@ -15,9 +15,11 @@ export default class Home extends Component {
                 <div className="home-banner banner-background">
                     <div className="home-banner-ant">
                         <div className="home-banner-text">
-                            <h5 style={{fontSize: "1.2rem"}}>IBM Partner World</h5>
-                            <h2 style={{fontSize: "2.6rem"}}>ANT ERP</h2>
-                            <p style={{fontSize: "1.1rem"}}>Por fin un ERP Industrial de Manufactura y Servicio al
+                            <h5>IBM Partner World</h5>
+                            <h2>ANT ERP</h2>
+                            <p className="text-desktop">Por fin un ERP Industrial de Manufactura y Servicio al
+                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.</p>
+                            <p className="text-mobile">Por fin un ERP Industrial de Manufactura y Servicio al
                                 alcance de las PYMES. Ant ERP funciona en la nube de IBM.</p>
                             <Button style={{width: "100px"}}
                                     onClick={() => this.props.history.push("/ant")}>Leer más</Button>
