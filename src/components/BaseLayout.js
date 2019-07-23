@@ -144,8 +144,7 @@ export default class BaseLayout extends Component {
                                                 ANT.
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ant")}>Consultoría ANT en
-                                                Procesos Industriales.
+                                                onClick={() => this.props.history.push("/ant")}>Facturación electrónica.
                                             </li>
                                             <li className="links"
                                                 onClick={() => this.props.history.push("/ibm")}>Soporte IBM Cloud.
