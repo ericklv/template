@@ -34,7 +34,13 @@ export default class Ant extends Component {
                              style={{maxWidth: "100%", height: "100%", maxHeight: "400px"}}/>
                     </div>
                 </div>
-                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
+                <div style={{
+                    width: "100%",
+                    textAlign: "center",
+                    fontSize: "2rem",
+                    fontWeight: 150,
+                    padding: "25px 20px 0 20px"
+                }}>
                     Funcionalidades
                 </div>
                 <div className="ant-clients">
@@ -70,6 +76,7 @@ export default class Ant extends Component {
                                 <li>Productos debajo del Stock mínimo</li>
                                 <li>Productos encima Stock máximo</li>
                                 <li>Productos / Proveedores</li>
+                                <li>Packing List</li>
                             </ul>
                         </div>
                         <div className="functionality">
@@ -79,7 +86,7 @@ export default class Ant extends Component {
                             <b>Atención</b>
                             <ul>
                                 <li>Registro de Pedidos</li>
-                                <li>Resume Pedidos Pend.</li>
+                                <li>Resume Pedidos Pendientes</li>
                                 <li>Salida Ventas</li>
                                 <li>Despacho / Facturación</li>
                                 <li>Guías, Boletas, Facturas</li>
@@ -101,19 +108,20 @@ export default class Ant extends Component {
                             <b>Canje de Documentos</b><br/>
                             <b>Cuenta Corriente</b><br/>
                             <ul>
-                                <li>Análisis de Costos por Artículo</li>
-                                <li>Stock Actual</li>
-                                <li>Kardex</li>
-                                <li>Ventas y Existencias</li>
-                                <li>Valorización</li>
-                                <li>Resumen Guías de Remisión</li>
-                                <li>Reporteador Inv.</li>
+                                <li>CxC Clientes</li>
+                                <li>CxC por Vendedor</li>
+                                <li>Resumen CxC</li>
+                                <li>Reporteador Ventas</li>
                             </ul>
                             <b>Registro de Ventas</b><br/>
+                            <b>Facturación Electrónica</b><br/>
+                            <b>CRM</b><br/>
+                            <b>POS</b><br/>
                         </div>
                         <div className="functionality">
                             <h2>Proveedores</h2>
                             <b>Proveedores</b><br/>
+                            <b>Aprobación OC</b><br/>
                             <b>Orden de compra</b><br/>
                             <ul>
                                 <li>Gestión de compra</li>
@@ -132,12 +140,6 @@ export default class Ant extends Component {
                             <ul>
                                 <li>Manuales</li>
                                 <li>Automáticas</li>
-                            </ul>
-                            <b>Reposición</b><br/>
-                            <ul>
-                                <li>Productos debajo del Stock mínimo</li>
-                                <li>Productos encima Stock máximo</li>
-                                <li>Productos / Proveedores</li>
                             </ul>
                         </div>
                         <div className="functionality">
@@ -158,6 +160,12 @@ export default class Ant extends Component {
                                 <li>Reposición Caja Chica</li>
                             </ul>
                             <b>Resumen de Pagos</b><br/>
+                            <b>Interface con BCP</b><br/>
+                            <ul>
+                                <li>Pagos</li>
+                                <li>Planillas</li>
+                                <li>Conciliación Bancaria</li>
+                            </ul>
                         </div>
                         <div className="functionality">
                             <h2>Contabilidad</h2>
@@ -188,7 +196,7 @@ export default class Ant extends Component {
                             <b>Reportes SUNAT</b><br/>
                             <ul>
                                 <li>Registro de Compras</li>
-                                <li>Registro de Ventas e Ingresos</li>
+                                <li>Registro de Ventas</li>
                                 <li>Balance de Comprobación</li>
                                 <li>Balance General</li>
                                 <li>Libro Diario</li>
@@ -201,10 +209,18 @@ export default class Ant extends Component {
                                 <li>Libro de Inventarios y Balances</li>
                                 <li>Inventarios y Balances Cta. 10</li>
                             </ul>
-                            <b>Presupuestos</b><br/>
+                            <b>Presupuestos / Activo Fijo</b><br/>
                         </div>
                         <div className="functionality">
-                            <h2>Planillas</h2>
+                            <h2>Planillas / RRHH</h2>
+                            <h3>RRHH</h3>
+                            <b>Tablas</b><br/>
+                            <b>Organigrama</b><br/>
+                            <b>Ficha del Trabajador</b><br/>
+                            <b>Definición de Puestos de Trabajo</b><br/>
+                            <b>Workflow</b><br/>
+                            <b>Evaluación del Desempeño</b><br/><br/>
+                            <h3>PLANILLA</h3>
                             <b>Conceptos</b><br/>
                             <ul>
                                 <li>Mantenimiento</li>
@@ -215,6 +231,7 @@ export default class Ant extends Component {
                                 <li>Control electrónico de tiempos</li>
                                 <li>Tareo</li>
                                 <li>Proceso tiempos</li>
+                                <li>Reporte de control de tiempos</li>
                             </ul>
                             <b>Calculo</b><br/>
                             <ul>
@@ -237,6 +254,9 @@ export default class Ant extends Component {
                                 <li>Boleta</li>
                                 <li>Reporteador Planillas</li>
                             </ul>
+                            <b>Liquidaciones</b><br/>
+                            <b>Vacaciones</b><br/>
+                            <b>Provisiones</b><br/>
                         </div>
                         <div className="functionality">
                             <h2>SIG</h2>
@@ -256,8 +276,7 @@ export default class Ant extends Component {
                             <b>Asignación de Opciones</b><br/>
                         </div>
                         <div className="functionality">
-                            <h2>Producción</h2>
-                            <b>Proveedores</b><br/>
+                            <h2>Operaciones</h2>
                             <b>Plan de Producción</b><br/>
                             <b>Orden de Producción/Servicios</b><br/>
                             <b>Formulación</b><br/>
@@ -275,7 +294,9 @@ export default class Ant extends Component {
                                 <li>Plazo entrega de Pedidos</li>
                                 <li>Reporteador</li>
                             </ul>
-                            <b>Planeamiento de O/P</b><br/>
+                            <b>MRP</b><br/>
+                            <b>Mantenimiento de Maquinas</b><br/>
+                            <b>Proyectos</b><br/>
                         </div>
                     </div>
                 </div>

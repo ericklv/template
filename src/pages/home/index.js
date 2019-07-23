@@ -15,12 +15,12 @@ export default class Home extends Component {
                 <div className="home-banner banner-background">
                     <div className="home-banner-ant">
                         <div className="home-banner-text">
-                            <h5>IBM Partner World</h5>
-                            <h2 style={{fontSize: "2.5rem"}}>ANT ERP</h2>
-                            <p>Por fin un ERP Industrial de Manufactura y Servicio al
-                                alcance de las PYMES.</p>
+                            <h5 style={{fontSize: "1.2rem"}}>IBM Partner World</h5>
+                            <h2 style={{fontSize: "2.6rem"}}>ANT ERP</h2>
+                            <p style={{fontSize: "1.1rem"}}>Por fin un ERP Industrial de Manufactura y Servicio al
+                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.</p>
                             <Button style={{width: "100px"}}
-                                    onClick={() => this.props.history.push("/ant")}>Leer mas</Button>
+                                    onClick={() => this.props.history.push("/ant")}>Leer más</Button>
                         </div>
                     </div>
                     <div className="home-banner-image">
@@ -34,10 +34,11 @@ export default class Home extends Component {
                             <h2 style={{width: "60%"}}>Esto no es solo una nube es <br/><b>IBM Cloud.</b></h2>
                             <p style={{width: "60%"}}>IBM Cloud es la nube para un negocio más inteligente En ella han
                                 confiado miles de
-                                empresas de más de 20 industrias por su proceso de cambio más rápido y seguro a
-                                la nube.</p>
+                                empresas de más de 20 industrias por su proceso de ca seguro a
+                                la nube. Ant ERP funciona en la nube, pero no en cualquier nube, usamos la nube de
+                                IBM.</p>
                             <Button style={{width: "100px"}}
-                                    onClick={() => this.props.history.push("/ibm")}>Leer mas</Button>
+                                    onClick={() => this.props.history.push("/ibm")}>Leer más</Button>
                         </div>
                     </div>
                     <div className="home-sub-info ia-cloud-background">
@@ -47,10 +48,11 @@ export default class Home extends Component {
                                 IBM</b></h2>
                             <p style={{width: "60%"}}>La tecnología de IA se ha movido de la ciencia ficción hacia la
                                 realidad en los negocios.
-                                Para hacer frente a los desafíos actuales y prepararse para el futuro, son necesarias
-                                soluciones de IA que se integren con su infraestructura y su estrategia de datos .</p>
+                                Para hacer frente a los desafíos actuales y preparars , son necesarias
+                                soluciones de IA que se Ant ERP funciona en la nube, pero no en cualquier nube, usamos
+                                la nube de IBM. integren con su infraestructura y su estrategia de datos .</p>
                             <Button style={{width: "100px"}}
-                                    onClick={() => this.props.history.push("/ibm")}>Leer mas</Button>
+                                    onClick={() => this.props.history.push("/ibm")}>Leer más</Button>
                         </div>
                     </div>
                 </div>
