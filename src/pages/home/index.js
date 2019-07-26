@@ -17,10 +17,17 @@ export default class Home extends Component {
                         <div className="home-banner-text">
                             <h5>IBM Partner World</h5>
                             <h2>ANT ERP</h2>
-                            <p className="text-desktop">Por fin un ERP Industrial de Manufactura y Servicio al
-                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.</p>
-                            <p className="text-mobile">Por fin un ERP Industrial de Manufactura y Servicio al
-                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.</p>
+                            <p className="text-desktop">Por fin un <href>ERP Industrial</href> de Manufactura y Servicio
+                                al
+                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.
+                                <br/>
+                                EL ANT trabaja totalmente en la Nube y tiene componentes de Inteligencia Artificial.
+                            </p>
+                            <p className="text-mobile">Por fin un <href>ERP Industrial</href> de Manufactura y Servicio
+                                al
+                                alcance de las PYMES totalmente en la Nube y tiene componentes de Inteligencia
+                                Artificial.
+                            </p>
                             <Button style={{width: "100px"}}
                                     onClick={() => this.props.history.push("/ant")}>Leer más</Button>
                         </div>
@@ -57,6 +64,17 @@ export default class Home extends Component {
                                     onClick={() => this.props.history.push("/ibm")}>Leer más</Button>
                         </div>
                     </div>
+                </div>
+                <div className="home-sub-services">
+                    <h2 style={{
+                        width: "100%",
+                        textAlign: "center",
+                        fontSize: "2rem",
+                        fontWeight: 150,
+                        padding: "25px 20px 0 20px"
+                    }}>
+                        ¿ Qué es un ERP Industrial?
+                    </h2>
                 </div>
                 <div className="home-sub-services">
                     <h2 style={{

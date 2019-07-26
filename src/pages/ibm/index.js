@@ -12,7 +12,7 @@ export default class Ibm extends Component {
                             IBM Cloud
                         </h1>
                         <p>
-                            Softlayer : es la solución líder del sector en infraestructura Cloud - interconectada,
+                            IBM Cloud : es la solución líder del sector en infraestructura Cloud - interconectada,
                             inteligente e instrumentada, otorgando a IBM Cloud funcionalidades exclusivas. Ofrece un
                             motor de alto rendimiento —servidores bare metal; dispositivos de seguridad, redes y
                             almacenamiento, etc...— desplegado en 40 centros de datos de todo el mundo.
@@ -25,10 +25,6 @@ export default class Ibm extends Component {
                             integrado en la plataforma de Softlayer. Las potentes APIs (con más de 1.600 funciones)
                             permiten a los clientes programar sus aplicaciones y sistemas para gestionar automáticamente
                             su infraestructura en la plataforma Softlayer.
-                        </p>
-                        <p>
-                            El SoftLayer del que tanto ha escuchado es ahora la base de IBM Cloud. Todavía estamos
-                            entregando la misma infraestructura de nube increíble en una escala aún mayor.
                         </p>
                         <p>
                             Potentes servidores de metal desnudo. Servidores virtuales de próxima generación. Cargas de
