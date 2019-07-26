@@ -63,14 +63,6 @@ export default class BaseLayout extends Component {
                                     <span>IBM Cloud</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="clients"
-                                       onClick={() => this.toggle()}>
-                                <Link className="text-link-menu"
-                                      to="/clients">
-                                    <Icon type="team"/>
-                                    <span>Clientes</span>
-                                </Link>
-                            </Menu.Item>
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
                                 <Link className="text-link-menu"
