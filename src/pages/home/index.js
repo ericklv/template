@@ -9,6 +9,11 @@ import financial from "./../../res/images/financial.png";
 
 export default class Home extends Component {
 
+    constructor(props) {
+        super(props);
+        this.myRef = null
+    }
+
     render() {
         return (
             <div className="home-content">
@@ -17,9 +22,11 @@ export default class Home extends Component {
                         <div className="home-banner-text">
                             <h5>IBM Partner World</h5>
                             <h2>ANT ERP</h2>
-                            <p className="text-desktop">Por fin un <href>ERP Industrial</href> de Manufactura y Servicio
-                                al
-                                alcance de las PYMES. Ant ERP funciona en la nube de IBM.
+                            <p className="text-desktop">Por fin
+                                un
+                                <href onClick={() => window.scrollTo(0, this.myRef.offsetTop)}>
+                                    ERP Industrial</href> de Manufactura y Servicio al alcance de las PYMES. Ant ERP
+                                funciona en la nube de IBM.
                                 <br/>
                                 EL ANT trabaja totalmente en la Nube y tiene componentes de Inteligencia Artificial.
                             </p>
@@ -65,7 +72,8 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="home-sub-services">
+                <div className="home-sub-services"
+                     ref={(ref) => this.myRef = ref}>
                     <h2 style={{
                         width: "100%",
                         textAlign: "center",

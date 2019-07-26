@@ -1,11 +1,15 @@
 @import "../utils/utils.scss";
 
-.text-link-menu{
-  span{
-    font-size: 1rem!important;
+html {
+  scroll-behavior: smooth;
+}
+
+.text-link-menu {
+  span {
+    font-size: 1rem !important;
   }
-  i{
-    font-size: 1.1rem!important;
+  i {
+    font-size: 1.1rem !important;
   }
 }
 
@@ -17,13 +21,13 @@
     background: #fff;
     padding: 0;
     @media (max-width: 600px) {
-      .ant-menu-horizontal{
-        .anticon, .anticon-user{
+      .ant-menu-horizontal {
+        .anticon, .anticon-user {
           margin: 0;
           padding: 0;
         }
       }
-      .text-menu{
+      .text-menu {
         display: none;
       }
     }
