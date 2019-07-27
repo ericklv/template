@@ -43,6 +43,55 @@
   }
 }
 
+.modules {
+  overflow: auto;
+  padding: 40px;
+}
+
+.grid-modules {
+  grid-template-columns: repeat(5, 20%);
+  width: 100%;
+  .grid-module {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    div:first-child {
+      min-width: 120px;
+      background: gray;
+      color: white;
+    }
+    div {
+      text-align: center;
+      min-width: 120px;
+      width: 100%;
+      margin: 1px;
+      padding: 0;
+      vertical-align: middle;
+      line-height: 80px;
+    }
+  }
+}
+
+.background {
+  &-green {
+    background: yellowgreen;
+    color: white;
+  }
+  &-purple {
+    background: rebeccapurple;
+    color: white;
+  }
+  &-dark-cyan {
+    background: darkcyan;
+    color: white;
+  }
+  &-cyan {
+    background: cyan;
+    color: white;
+  }
+}
+
 .ant-clients {
   width: 90%;
   margin: auto;

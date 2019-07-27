@@ -41,6 +41,120 @@ export default class Ant extends Component {
                     fontWeight: 150,
                     padding: "25px 20px 0 20px"
                 }}>
+                    Modulos Ant
+                </div>
+                <div className="modules">
+                    <div className="grid-modules">
+                        <div className="grid-module">
+                            <div>
+                                INFORMACION <br/>GENERAL
+                            </div>
+                            <div className="background-green">
+                                REPORTES PREDEFINIDOS
+                            </div>
+                            <div className="background-green">
+                                FITROS Y QUERYS <br/> (REPORTEADOR)
+                            </div>
+                            <div className="background-green">
+                                BSC
+                            </div>
+                        </div>
+                        <div className="grid-module">
+                            <div>
+                                COMPRAS <br/> ALMACEN
+                            </div>
+                            <div className="background-purple">
+                                PLANIFICACIÓN DEL <br/> ABASTECIMIENTO
+                            </div>
+                            <div className="background-dark-cyan">
+                                IMPORTACIONES
+                            </div>
+                            <div className="background-dark-cyan">
+                                GESTIÓN DE <br/> INVENTARIOS
+                            </div>
+                            <div className="background-dark-cyan">COMPRAS LOCALES</div>
+                        </div>
+                        <div className="grid-module">
+                            <div>
+                                PRODUCCIÓN
+                            </div>
+                            <div className="background-purple">
+                                MRP
+                            </div>
+                            <div className="background-dark-cyan">
+                                LISTA DE MATERIALES
+                            </div>
+                            <div className="background-dark-cyan">
+                                PLAN DE PRODUCCIÓN
+                            </div>
+                            <div className="background-dark-cyan">
+                                ORDEN DE PRODUCCIÓN
+                            </div>
+                            <div className="background-dark-cyan">
+                                PROGRAMA DE PRODUCCIÓN
+                            </div>
+                        </div>
+                        <div className="grid-module">
+                            <div>
+                                VENTAS
+                            </div>
+                            <div className="background-purple">
+                                CRM
+                            </div>
+                            <div className="background-purple">
+                                PLAN DE VENTAS
+                            </div>
+                            <div className="background-dark-cyan">
+                                VENTAS
+                            </div>
+                            <div className="background-dark-cyan">
+                                PACKING
+                            </div>
+                            <div className="background-dark-cyan">
+                                COBRANZAS
+                            </div>
+                        </div>
+                        <div className="grid-module">
+                            <div>
+                                RRHH
+                            </div>
+                            <div className="background-purple">
+                                ORGANIGRAMA
+                            </div>
+                            <div className="background-dark-cyan">
+                                WORKFLOW
+                            </div>
+                            <div className="background-dark-cyan">
+                                PLANILLAS
+                            </div>
+                            <div className="background-dark-cyan">
+                                GESTION DE <br/> PERSONAL
+                            </div>
+                        </div>
+                        <div className="grid-module">
+                            <div>
+                                FINANZAS
+                            </div>
+                            <div className="background-cyan">
+                                CONTABILIDAD Y <br/>FINANZAS
+                            </div>
+                            <div className="background-cyan">TESORERÍA</div>
+                            <div className="background-cyan">
+                                CONTROL DE <br/>COSTOS
+                            </div>
+                            <div className="background-cyan">
+                                GESTIÓN DE <br/>PERSONAL
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{
+                    width: "100%",
+                    textAlign: "center",
+                    fontSize: "2rem",
+                    fontWeight: 150,
+                    padding: "25px 20px 0 20px"
+                }}>
                     Funcionalidades
                 </div>
                 <div className="ant-clients">
