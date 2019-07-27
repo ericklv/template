@@ -91,7 +91,7 @@ export default class Ant extends Component {
                                 ORDEN DE PRODUCCIÓN
                             </div>
                             <div className="background-dark-cyan">
-                                PROGRAMA DE PRODUCCIÓN
+                                PROGRAMA DE <br/>PRODUCCIÓN
                             </div>
                         </div>
                         <div className="grid-module">

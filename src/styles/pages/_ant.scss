@@ -50,6 +50,7 @@
 
 .grid-modules {
   grid-template-columns: repeat(5, 20%);
+  min-width: 750px;
   width: 100%;
   .grid-module {
     display: flex;
