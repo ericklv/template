@@ -19,7 +19,7 @@ export default class Ant extends Component {
                         <p>
                             A lo largo de estos años encontramos, que en el mercado hay muchas soluciones que manejan
                             los Módulos Administrativos, pero entran tímidamente al aspecto de “Operaciones” por lo que
-                            no pueden concretar su “ Cadena de Valor” Logística, Producción, Costos), por lo que fuimos
+                            no pueden concretar su “Cadena de Valor” Logística, Producción, Costos), por lo que fuimos
                             enfocando el producto cada vez a esas funcionalidades logrando una gran utilidad marginal
                             para las empresas industriales con un producto que maneja entre otras cosas Plan de
                             Producción, Plan de Compras, Manejo de Ordenes de Producción y Servicio, Planeamiento de
