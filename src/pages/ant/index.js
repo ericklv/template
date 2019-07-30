@@ -47,13 +47,13 @@ export default class Ant extends Component {
                     <div className="grid-modules">
                         <div className="grid-module">
                             <div>
-                                INFORMACION <br/>GENERAL
+                                INFORMACION GENERAL
                             </div>
                             <div className="background-green">
                                 REPORTES PREDEFINIDOS
                             </div>
                             <div className="background-green">
-                                FITROS Y QUERYS <br/> (REPORTEADOR)
+                                FITROS Y QUERYS  (REPORTEADOR)
                             </div>
                             <div className="background-green">
                                 BSC
@@ -61,16 +61,16 @@ export default class Ant extends Component {
                         </div>
                         <div className="grid-module">
                             <div>
-                                COMPRAS <br/> ALMACEN
+                                COMPRAS  ALMACEN
                             </div>
                             <div className="background-purple">
-                                PLANIFICACIÓN DEL <br/> ABASTECIMIENTO
+                                PLANIFICACIÓN DEL  ABASTECIMIENTO
                             </div>
                             <div className="background-dark-cyan">
                                 IMPORTACIONES
                             </div>
                             <div className="background-dark-cyan">
-                                GESTIÓN DE <br/> INVENTARIOS
+                                GESTIÓN DE  INVENTARIOS
                             </div>
                             <div className="background-dark-cyan">COMPRAS LOCALES</div>
                         </div>
@@ -91,7 +91,7 @@ export default class Ant extends Component {
                                 ORDEN DE PRODUCCIÓN
                             </div>
                             <div className="background-dark-cyan">
-                                PROGRAMA DE <br/>PRODUCCIÓN
+                                PROGRAMA DE PRODUCCIÓN
                             </div>
                         </div>
                         <div className="grid-module">
@@ -128,7 +128,7 @@ export default class Ant extends Component {
                                 PLANILLAS
                             </div>
                             <div className="background-dark-cyan">
-                                GESTION DE <br/> PERSONAL
+                                GESTION DE  PERSONAL
                             </div>
                         </div>
                         <div className="grid-module">
@@ -136,14 +136,14 @@ export default class Ant extends Component {
                                 FINANZAS
                             </div>
                             <div className="background-cyan">
-                                CONTABILIDAD Y <br/>FINANZAS
+                                CONTABILIDAD Y FINANZAS
                             </div>
                             <div className="background-cyan">TESORERÍA</div>
                             <div className="background-cyan">
-                                CONTROL DE <br/>COSTOS
+                                CONTROL DE COSTOS
                             </div>
                             <div className="background-cyan">
-                                GESTIÓN DE <br/>PERSONAL
+                                GESTIÓN DE PERSONAL
                             </div>
                         </div>
                     </div>

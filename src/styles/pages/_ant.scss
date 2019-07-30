@@ -45,12 +45,13 @@
 
 .modules {
   overflow: auto;
-  padding: 40px;
+  margin: 40px;
 }
 
 .grid-modules {
   grid-template-columns: repeat(5, 20%);
   min-width: 750px;
+  min-height: 490px;
   width: 100%;
   .grid-module {
     display: flex;
@@ -63,13 +64,14 @@
       color: white;
     }
     div {
+      display: flex;
       text-align: center;
       min-width: 120px;
       width: 100%;
       margin: 1px;
-      padding: 0;
-      vertical-align: middle;
-      line-height: 80px;
+      padding: 5px;
+      justify-content: center;
+      align-items: center
     }
   }
 }
