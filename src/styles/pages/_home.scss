@@ -144,6 +144,27 @@
     }
   }
 
+  .about-erp {
+    display: flex;
+    min-height: 200px;
+    div {
+      width: 50%;
+      display: flex;
+      align-items: flex-start!important;
+      flex-direction: column;
+      .about {
+        width: 100%;
+        p{
+          text-align: center;
+          margin: 5px;
+        }
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-evenly;
+      }
+    }
+  }
+
   .home-sub-services {
     background-color: #f7f7f7;
     display: flex;

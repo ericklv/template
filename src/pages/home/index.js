@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Button} from "antd";
+import {Button, Icon} from "antd";
 import ant from "./../../res/images/ant.png";
 import ant2 from "./../../res/images/ant2.png";
 import db2 from "./../../res/images/db2.png";
@@ -23,9 +23,8 @@ export default class Home extends Component {
                             <h5>IBM Partner World</h5>
                             <h2>ANT ERP</h2>
                             <p className="text-desktop">Por fin
-                                un
-                                <href onClick={() => window.scrollTo(0, this.myRef.offsetTop)}>
-                                    ERP Industrial</href> de Manufactura y Servicio al alcance de las PYMES. Ant ERP
+                                un <a onClick={() => window.scrollTo(0, this.myRef.offsetTop)}>
+                                    ERP Industrial</a> de Manufactura y Servicio al alcance de las PYMES. Ant ERP
                                 funciona en la nube de IBM.
                                 <br/>
                                 EL ANT trabaja totalmente en la Nube y tiene componentes de Inteligencia Artificial.
@@ -72,17 +71,34 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="home-sub-services"
+                <div className="about-erp home-sub-content"
                      ref={(ref) => this.myRef = ref}>
-                    <h2 style={{
-                        width: "100%",
-                        textAlign: "center",
-                        fontSize: "2rem",
-                        fontWeight: 150,
-                        padding: "25px 20px 0 20px"
-                    }}>
-                        ¿ Qué es un ERP Industrial?
-                    </h2>
+                    <div className="home-sub-info">
+                        <h2 className="title">
+                            ¿ Qué es un ERP Industrial?
+                        </h2>
+                        <p>
+                            Un ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de
+                            recursos empresariales”.
+                            Ant ERP se hace cargo de todas las operaciones internas de una empresa, desde producción a
+                            distribución o incluso recursos humanos.
+                        </p>
+                    </div>
+                    <div className="home-sub-info">
+                        <h2 className="title">
+                            Beneficos Ant ERP
+                        </h2>
+                        <div className="about">
+                            <p><Icon type="setting"
+                                     style={{fontSize: "2rem", color: "#08c"}}/> <br/>Integración de Procesos</p>
+                            <p><Icon type="dollar"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Costeo permanente de las
+                                Operaciones</p>
+                            <p><Icon type="apartment"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Gestión descentralizada</p>
+
+                        </div>
+                    </div>
                 </div>
                 <div className="home-sub-services">
                     <h2 style={{
