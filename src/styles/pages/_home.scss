@@ -118,12 +118,13 @@
     }
   }
 
-  .ibm-cloud-background {
-    background: darkcyan;
-    //background-image: linear-gradient(to left,
-    //        rgba(46, 196, 182, 0.6),
-    //        rgba(2, 2, 2, 0.5)
-    //), url("https://www.geo-tel.com/wp-content/uploads/2017/11/ibm-cloud-private-transforms-data-centers-cloud-storage.jpeg");
+  .ia-cloud-background {
+    background: #008b8b;
+    background:  linear-gradient(to left,
+            rgba(2,2,2, 0.3),
+            rgba(0,139,139, 0.7),
+            rgba(0,139,139, 0.9)
+    ), url("./res/images/ia-ibm.jpg") center center;
     h1, h2, h3, h4, p {
       color: white !important;
     }
@@ -132,13 +133,17 @@
     }
   }
 
-  .ia-cloud-background {
-    background: #EF5350;
-    //background: linear-gradient(to left,
-    //        rgba(239, 83, 80, 0.6),
-    //        rgba(2, 2, 2, 0.6)
-    //), url("https://s3.amazonaws.com/files.cnas.org/title/AI-Hero.jpg?mtime=20170725094403") center center;
+  .ibm-cloud-background {
+    //background: #e74c3c;
+    background: url("./res/images/cloud-background.jpg") center center;
     background-size: cover;
+    h1, h2, h3, h4, p {
+      color: white !important;
+    }
+  }
+
+  .ant-background {
+    background: lightslategrey;
     h1, h2, h3, h4, p {
       color: white !important;
     }

@@ -73,17 +73,21 @@ export default class Home extends Component {
                 </div>
                 <div className="about-erp home-sub-content"
                      ref={(ref) => this.myRef = ref}>
-                    <div className="home-sub-info">
+                    <div className="home-sub-info ant-background">
                         <h2 className="title" style={{fontSize: "1.3rem"}}>
                             ¿ Qué es un ERP Industrial?
                         </h2>
-                        <p style={{fontSize: "1.1rem"}}>
+                        <p style={{fontSize: "1.1rem", width: "70%"}}>
                             Un ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de
-                            recursos empresariales”.
+                            recursos empresariales”.  Según una encuesta de Panorama Consulting de 2013, un 40% de las
+                            empresas que adquieren un ERP notan un aumento la productividad.
                             <br/>
+                            Hoy en día, muchas empresas buscan un sistema ERP para su compañía,
                             Ant ERP se hace cargo de todas las operaciones internas de una empresa, desde producción a
                             distribución o incluso recursos humanos.
                         </p>
+                        <Button style={{width: "100px"}}
+                                onClick={() => this.props.history.push("/ant")}>Leer más</Button>
                     </div>
                     <div className="home-sub-info">
                         <h2 className="title">
