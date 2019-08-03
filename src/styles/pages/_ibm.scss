@@ -53,6 +53,9 @@
       align-items: flex-start!important;
       flex-direction: column;
       flex-wrap: wrap;
+      @media (max-width: 600px ) {
+        width: 100%;
+      }
       .about {
         width: 100%;
         p{
