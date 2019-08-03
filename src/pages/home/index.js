@@ -95,8 +95,14 @@ export default class Home extends Component {
                             <p><Icon type="dollar"
                                      style={{fontSize: "2rem", color: "#08c"}}/><br/>Costeo permanente de <br/>las
                                 Operaciones</p>
-                            <p><Icon type="apartment"
+                            <p><Icon type="reconciliation"
                                      style={{fontSize: "2rem", color: "#08c"}}/><br/>Gestión descentralizada</p>
+                            <p><Icon type="branches"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Trazabilidad</p>
+                            <p><Icon type="safety-certificate"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Seguridad</p>
+                            <p><Icon type="apartment"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Infraestructura para el <br/> planeamiento</p>
 
                         </div>
                     </div>
