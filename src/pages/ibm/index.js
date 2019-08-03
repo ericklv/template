@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import ant from "./../../res/images/ant.jpg"
+import {Icon} from "antd";
 
 export default class Ibm extends Component {
 
@@ -32,11 +33,36 @@ export default class Ibm extends Component {
                             que somos IBM Cloud, estamos tomando la nube que construimos desde cero y la convertimos en
                             la mejor solución de nube para su empresa hoy en día.</p>
                     </div>
-                    <div className="ant-banner">
-                        <img src={ant}
-                             alt=""
-                             height="100%"
-                             style={{maxWidth: "100%", height: "100%", maxHeight: "400px"}}/>
+                    <div className="ant-banner"/>
+                </div>
+                <div className="about-erp home-sub-content">
+                    <div className="home-sub-info background-dark-green">
+                        <h2 style={{fontSize:"1.5rem",fontWeight: 250}} >
+                            Cuando se trata de computación en la nube, no hay nada malo en tener una ventaja competitiva.
+                        </h2>
+                        <p style={{fontSize:"1.1rem"}}>
+                           IBM Cloud garantiza su integración perfecta a los entornos de nube pública y privada.
+                            <br/>
+                            La infraestructura es segura, escalable y flexible, lo que brinda soluciones empresariales
+                            personalizadas que hacen de IBM Cloud el lider del mercado de la nube hibrida.
+                        </p>
+                    </div>
+                    <div className="home-sub-info background-white">
+                        <h2 className="title">
+                            Beneficios IBM Cloud
+                        </h2>
+                        <div className="about">
+                            <p><Icon type="deployment-unit"
+                                     style={{fontSize: "2rem", color: "#08c"}}/> <br/>Tecnologias abiertas</p>
+                            <p><Icon type="solution"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>DevOps para la Innovación <br/>Empresarial</p>
+                            <p><Icon type="pull-request"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Integración Híbrida</p>
+                            <p><Icon type="key"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Datos y Analíticas accesibles</p>
+                            <p><Icon type="monitor"
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Soluciones Cógnitivas</p>
+                        </div>
                     </div>
                 </div>
                 <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>

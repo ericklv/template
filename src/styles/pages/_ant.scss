@@ -21,6 +21,9 @@
         width: 100%;
         height: auto!important;
       }
+      @media (max-width: 600px) {
+        display: none!important;
+      }
     }
 
     .ant-text {
@@ -84,6 +87,13 @@
 }
 
 .background {
+  &-dark-green{
+    h2{
+      color: white!important;
+    }
+    background: #008571;
+    color: white!important;
+  }
   &-green {
     background: yellowgreen;
     color: white;
@@ -99,6 +109,10 @@
   &-cyan {
     background: cyan;
     color: white;
+  }
+  &-white {
+    background: white;
+    color: gray();
   }
 }
 

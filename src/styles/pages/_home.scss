@@ -182,31 +182,31 @@
       width: 300px;
     }
   }
+}
 
-  .home-sub-content {
+.home-sub-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .home-sub-info {
+    padding: 30px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    max-height: 450px;
+  }
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
     height: 100%;
     .home-sub-info {
-      padding: 30px;
       display: flex;
-      align-items: center;
-      width: 50%;
-      max-height: 450px;
-    }
-
-    @media screen and (max-width: 600px) and (orientation: portrait) {
-      display: flex;
+      align-items: flex-end;
       width: 100%;
-      flex-direction: column;
-      height: 100%;
-      .home-sub-info {
-        display: flex;
-        align-items: flex-end;
-        width: 100%;
-        p {
-          width: 90% !important;
-        }
+      p {
+        width: 90% !important;
       }
     }
   }
