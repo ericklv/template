@@ -91,14 +91,19 @@ export default class BaseLayout extends Component {
                                 style={{lineHeight: '63px'}}
                             >
                                 <Menu.Item key="1"
-                                           className="contact-us">
+                                           className="contact-us"
+                                           onClick={ ()=> this.props.history.push("/contact-us")}
+                                >
                                     <Icon type="mail"/>
                                     <span className="text-menu">Contáctanos</span>
                                 </Menu.Item>
                                 <Menu.Item key="2"
-                                           className="intranet">
+                                           className="intranet"
+                                >
+                                    <a  target="_blank" href="http://loginetperu.com:2095/">
                                     <Icon type="user"/>
                                     <span className="text-menu">Intranet</span>
+                                    </a>
                                 </Menu.Item>
                             </Menu>
                         </Layout.Header>

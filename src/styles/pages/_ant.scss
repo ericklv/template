@@ -15,6 +15,13 @@
         min-width: 100%;
       }
     }
+    .ant-maps{
+      overflow: hidden;
+      div {
+        width: 100%;
+        height: auto!important;
+      }
+    }
 
     .ant-text {
       padding: 20px;

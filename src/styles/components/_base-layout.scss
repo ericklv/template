@@ -44,6 +44,12 @@ html {
         }
       }
       .intranet {
+        a{
+          color: white!important;
+          &:hover, &:active {
+            color: #1890ff;
+          }
+        }
         text-align: center;
         background: #0062FF;
         color: white;

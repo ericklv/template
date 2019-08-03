@@ -80,19 +80,20 @@ export default class Home extends Component {
                         <p>
                             Un ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de
                             recursos empresariales”.
+                            <br/>
                             Ant ERP se hace cargo de todas las operaciones internas de una empresa, desde producción a
                             distribución o incluso recursos humanos.
                         </p>
                     </div>
                     <div className="home-sub-info">
                         <h2 className="title">
-                            Beneficos Ant ERP
+                            Beneficios Ant ERP
                         </h2>
                         <div className="about">
                             <p><Icon type="setting"
                                      style={{fontSize: "2rem", color: "#08c"}}/> <br/>Integración de Procesos</p>
                             <p><Icon type="dollar"
-                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Costeo permanente de las
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>Costeo permanente de <br/>las
                                 Operaciones</p>
                             <p><Icon type="apartment"
                                      style={{fontSize: "2rem", color: "#08c"}}/><br/>Gestión descentralizada</p>
