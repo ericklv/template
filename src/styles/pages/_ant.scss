@@ -2,7 +2,7 @@
   background: #f0f2f4;
   .ant-content-text {
     background: white;
-    padding: 20px 50px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,15 +27,18 @@
     }
 
     .ant-text {
-      padding: 20px;
+      padding: 30px;
       width: 50%;
       min-width: 50%;
       p {
         text-align: justify;
       }
       @media (max-width: 767px) {
-        padding: 20px 0;
+        padding: 20px;
         min-width: 100%;
+      }
+      @media (min-width: 1440px) {
+        padding: 45px;
       }
     }
 
@@ -56,6 +59,9 @@
 .modules {
   overflow: auto;
   margin: 20px 40px;
+  @media (max-width: 767px) and (orientation: portrait){
+    margin: 20px;
+  }
 }
 
 .grid-modules {
@@ -99,7 +105,7 @@
     color: white;
   }
   &-purple {
-    background: rebeccapurple;
+    background: #6153CC;
     color: white;
   }
   &-dark-cyan {
@@ -107,7 +113,7 @@
     color: white;
   }
   &-cyan {
-    background: cyan;
+    background: #6DD3CE;
     color: white;
   }
   &-white {
@@ -127,6 +133,7 @@
     margin: 10px;
   }
   .functionalities {
+    width: 100%;
     background: transparent;
     display: flex;
     flex-direction: row;
@@ -151,6 +158,7 @@
     & {
       padding: 10px;
       .functionalities {
+        margin:0!important;
         .functionality {
           max-width: 95%;
         }

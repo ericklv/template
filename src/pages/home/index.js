@@ -46,8 +46,8 @@ export default class Home extends Component {
                 <div className="home-sub-content">
                     <div className="home-sub-info ibm-cloud-background">
                         <div>
-                            <h2 style={{width: "60%"}}>Esto no es solo una nube es <br/><b>IBM Cloud.</b></h2>
-                            <p style={{width: "60%"}}>IBM Cloud es la nube para un negocio más inteligente En ella han
+                            <h2 style={{width: "70%"}}>Esto no es solo una nube es <br/><b>IBM Cloud.</b></h2>
+                            <p style={{width: "65%"}}>IBM Cloud es la nube para un negocio más inteligente En ella han
                                 confiado miles de
                                 empresas de más de 20 industrias por su proceso de ca seguro a
                                 la nube. Ant ERP funciona en la nube, pero no en cualquier nube, usamos la nube de
@@ -74,10 +74,10 @@ export default class Home extends Component {
                 <div className="about-erp home-sub-content"
                      ref={(ref) => this.myRef = ref}>
                     <div className="home-sub-info">
-                        <h2 className="title">
+                        <h2 className="title" style={{fontSize: "1.3rem"}}>
                             ¿ Qué es un ERP Industrial?
                         </h2>
-                        <p>
+                        <p style={{fontSize: "1.1rem"}}>
                             Un ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de
                             recursos empresariales”.
                             <br/>

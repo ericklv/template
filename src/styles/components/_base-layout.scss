@@ -4,6 +4,15 @@ html {
   scroll-behavior: smooth;
 }
 
+p , span, label{
+  @media (min-width: 1441px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 1080px) and (max-width: 1439px) {
+    font-size: 0.9rem;
+  }
+}
+
 .text-link-menu {
   span {
     font-size: 1rem !important;
@@ -171,5 +180,8 @@ html {
       text-underline: auto;
       cursor: pointer;
     }
+  }
+  @media (max-width: 767px) {
+    padding: 25px;
   }
 }

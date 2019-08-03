@@ -1,9 +1,11 @@
 .about-us-content {
-  padding: 20px 50px;
+  padding: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   .about-us-banner {
+    background: url("./res/images/about.jpg") center center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,15 +16,18 @@
   }
 
   .about-us-text{
-    padding: 20px;
+    padding: 30px;
     width: 50%;
     min-width: 50%;
     p{
       text-align: justify;
     }
     @media (max-width: 767px) {
-      padding: 20px 0;
+      padding: 20px;
       min-width: 100%;
+    }
+    @media (min-width: 1440px) {
+      padding: 45px;
     }
   }
 

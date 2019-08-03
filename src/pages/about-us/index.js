@@ -38,11 +38,9 @@ export default class AboutUs extends Component {
                             plataformas que representamos.
                         </p>
                 </div>
-                    <div className="about-us-banner">
-                        <img src={about} alt="" height="100%" style={{maxWidth:"100%",height:"100%", maxHeight:"400px"}}/>
-                    </div>
+                    <div className="about-us-banner"/>
             </div>
-                <div style={{width: "100%", textAlign:"center", fontSize:"2rem", fontWeight:150, padding:"0 20px"}}>
+                <div style={{width: "100%", marginTop: "25px",textAlign:"center", fontSize:"2rem", fontWeight:150, padding:"0 20px"}}>
                         Tenemos mas de 200 clientes en Peru y Mexico
                 </div>
                 <div className="about-us-clients">
