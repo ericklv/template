@@ -27,9 +27,9 @@ class ContactUs extends Component {
                             <Button type="primary" htmlType="submit" value="Send">Enviar</Button>
                         </form>
                     </div>
-                    <div className="ant-maps">
+                    <div>
                         <GoogleMapReact
-                            bootstrapURLKeys={{ key: "AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU" }}
+                            bootstrapURLKeys={{ key: "AIzaSyAItl-QhVSKz0K5QyAgSqh-otBVaElJYR4" }}
                             defaultCenter={this.props.center}
                             defaultZoom={this.props.zoom}
                         >
