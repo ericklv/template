@@ -65,11 +65,11 @@ export default class BaseLayout extends Component {
                             </Menu.Item>
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
-                                <Link className="text-link-menu"
-                                      to="/intranet">
+                                <a className="text-link-menu" target="_blank" href="http://loginetperu.com:2095/">
                                     <Icon type="user"/>
                                     <span>Intranet</span>
-                                </Link>
+
+                                </a>
                             </Menu.Item>
                         </Menu>
                     </Layout.Sider>
