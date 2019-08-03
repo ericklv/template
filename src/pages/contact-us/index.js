@@ -27,19 +27,20 @@ class ContactUs extends Component {
                             <Button type="primary" htmlType="submit" value="Send">Enviar</Button>
                         </form>
                     </div>
-                    <div>
-                        <GoogleMapReact
-                            bootstrapURLKeys={{ key: "AIzaSyAItl-QhVSKz0K5QyAgSqh-otBVaElJYR4" }}
-                            defaultCenter={this.props.center}
-                            defaultZoom={this.props.zoom}
-                        >
-                            <AnyReactComponent
-                                lat={59.955413}
-                                lng={30.337844}
-                                text="My Marker"
-                            />
-                        </GoogleMapReact>
-                    </div>
+                    <div className="maps"/>
+                    {/*<div>*/}
+                    {/*    <GoogleMapReact*/}
+                    {/*        bootstrapURLKeys={{ key: "AIzaSyAItl-QhVSKz0K5QyAgSqh-otBVaElJYR4" }}*/}
+                    {/*        defaultCenter={this.props.center}*/}
+                    {/*        defaultZoom={this.props.zoom}*/}
+                    {/*    >*/}
+                    {/*        <AnyReactComponent*/}
+                    {/*            lat={59.955413}*/}
+                    {/*            lng={30.337844}*/}
+                    {/*            text="My Marker"*/}
+                    {/*        />*/}
+                    {/*    </GoogleMapReact>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         )

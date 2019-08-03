@@ -92,6 +92,16 @@
   }
 }
 
+.maps {
+  background: url("./res/images/maps.png") bottom center;
+  background-size: cover;
+  min-height: 300px;
+  width: 50%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
 .background {
   &-dark-green{
     h2{
