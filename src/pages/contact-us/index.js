@@ -1,7 +1,11 @@
 import React, {Component} from "react";
 import ant from "./../../res/images/ant.jpg"
 import {Button, Input} from "antd";
-import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+import GoogleMapReact from 'google-map-react';
+
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
 
 class ContactUs extends Component {
 
@@ -24,21 +28,21 @@ class ContactUs extends Component {
                         </form>
                     </div>
                     <div className="ant-maps">
-                        <Map google={this.props.google}
-                             zoom={10}
-                             initialCenter={{
-                                 lat: 20.63528,
-                                 lng: -97.55889
-                             }}
-                             style={{height: "40vh", minHeight: "400px", width: "50vw", minWidth: "350px"}}
-                        ><Marker/></Map>
+                        <GoogleMapReact
+                            bootstrapURLKeys={{ key: "AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU" }}
+                            defaultCenter={this.props.center}
+                            defaultZoom={this.props.zoom}
+                        >
+                            <AnyReactComponent
+                                lat={59.955413}
+                                lng={30.337844}
+                                text="My Marker"
+                            />
+                        </GoogleMapReact>
                     </div>
                 </div>
             </div>
         )
     }
 }
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU"),
-    version: 3.31
-})(ContactUs);
+export default ContactUs;
