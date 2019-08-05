@@ -123,7 +123,7 @@ export default class BaseLayout extends Component {
                             background: "#fff",
                             minHeight: "75vh"
                         }}>
-                            <div className="ant-toogle">
+                            <div className="ant-toogle" onClick={() => this.props.history.push("/ant")}>
                                 <img src={ant}
                                      style={{
                                          height: "60px",
