@@ -15,7 +15,7 @@ class ContactUs extends Component {
                               name="complaint-form"
                               accept-charset="utf-8"
                               method="POST"
-                              action="https://formspree.io/elazon01@gmail.com">
+                              action="https://formspree.io/info@loginetperu.com">
                             <fieldset id="fs-frm-inputs">
                                 <Input type="text"
                                        name="name"
