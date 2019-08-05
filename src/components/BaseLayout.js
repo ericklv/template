@@ -77,7 +77,7 @@ export default class BaseLayout extends Component {
                         <Layout.Header className="base-layout-header">
                             <div>
                                 <Icon className="trigger"
-                                      type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
+                                      type={this.state.collapsed ? "menu-unfold" : "menu-fold"}
                                       onClick={this.toggle}/>
                                 <span className="projectTitle"
                                       onClick={() => {
@@ -88,7 +88,7 @@ export default class BaseLayout extends Component {
                             <Menu
                                 theme="light"
                                 mode="horizontal"
-                                style={{lineHeight: '63px'}}
+                                style={{lineHeight: "63px"}}
                             >
                                 <Menu.Item key="1"
                                            className="contact-us"
@@ -108,8 +108,8 @@ export default class BaseLayout extends Component {
                             </Menu>
                         </Layout.Header>
                         <Layout.Content style={{
-                            background: '#fff',
-                            minHeight: '75vh'
+                            background: "#fff",
+                            minHeight: "75vh"
                         }}>
                             {this.childWithProperties(this.props)}
                         </Layout.Content>
