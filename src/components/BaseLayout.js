@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Icon, Layout, Menu} from "antd";
 import {Link} from "react-router-dom";
 import logo from "../res/images/logo.png";
+import ant from "../res/images/ant.png";
 
 export default class BaseLayout extends Component {
 
@@ -55,17 +56,27 @@ export default class BaseLayout extends Component {
                                     <span>ANT ERP</span>
                                 </Link>
                             </Menu.Item>
-                            <Menu.Item key="ibm">
+                            <Menu.Item key="ibm-cloud">
                                 <Link className="text-link-menu"
-                                      to="/ibm"
+                                      to="/ibm-cloud"
                                       onClick={() => this.toggle()}>
                                     <Icon type="cloud-server"/>
                                     <span>IBM Cloud</span>
                                 </Link>
                             </Menu.Item>
+                            <Menu.Item key="ibm-ia">
+                                <Link className="text-link-menu"
+                                      to="/ibm-ia"
+                                      onClick={() => this.toggle()}>
+                                    <Icon type="cloud-server"/>
+                                    <span>IBM IA</span>
+                                </Link>
+                            </Menu.Item>
                             <Menu.Item key="intranet"
                                        onClick={() => this.toggle()}>
-                                <a className="text-link-menu" target="_blank" href="http://loginetperu.com:2095/">
+                                <a className="text-link-menu"
+                                   target="_blank"
+                                   href="http://loginetperu.com:2095/">
                                     <Icon type="user"/>
                                     <span>Intranet</span>
 
@@ -92,7 +103,7 @@ export default class BaseLayout extends Component {
                             >
                                 <Menu.Item key="1"
                                            className="contact-us"
-                                           onClick={ ()=> this.props.history.push("/contact-us")}
+                                           onClick={() => this.props.history.push("/contact-us")}
                                 >
                                     <Icon type="mail"/>
                                     <span className="text-menu">Contáctanos</span>
@@ -100,9 +111,10 @@ export default class BaseLayout extends Component {
                                 <Menu.Item key="2"
                                            className="intranet"
                                 >
-                                    <a  target="_blank" href="http://loginetperu.com:2095/">
-                                    <Icon type="user"/>
-                                    <span className="text-menu">Intranet</span>
+                                    <a target="_blank"
+                                       href="http://loginetperu.com:2095/">
+                                        <Icon type="user"/>
+                                        <span className="text-menu">Intranet</span>
                                     </a>
                                 </Menu.Item>
                             </Menu>
@@ -111,6 +123,14 @@ export default class BaseLayout extends Component {
                             background: "#fff",
                             minHeight: "75vh"
                         }}>
+                            <div className="ant-toogle">
+                                <img src={ant}
+                                     style={{
+                                         height: "60px",
+                                         margin: "auto"
+                                     }}
+                                     alt="ant"/>
+                            </div>
                             {this.childWithProperties(this.props)}
                         </Layout.Content>
                         <Layout.Footer>
@@ -126,7 +146,7 @@ export default class BaseLayout extends Component {
                                                 onClick={() => this.props.history.push("/ant")}>ERP Ant
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>IBM Cloud
                                             </li>
                                         </ul>
                                         <ul>
@@ -134,7 +154,7 @@ export default class BaseLayout extends Component {
                                                 SERVICIOS
                                             </label>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>Soporte IBM DB2.
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>Soporte IBM DB2.
                                             </li>
                                             <li className="links"
                                                 onClick={() => this.props.history.push("/ant")}>Soporte y Capacitación
@@ -144,7 +164,7 @@ export default class BaseLayout extends Component {
                                                 onClick={() => this.props.history.push("/ant")}>Facturación electrónica.
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>Soporte IBM Cloud.
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>Soporte IBM Cloud.
                                             </li>
                                             <li className="links"
                                                 onClick={() => this.props.history.push("/about-us")}>Financiamiento
@@ -165,13 +185,13 @@ export default class BaseLayout extends Component {
                                             PARTNERS & PROGRAMAS
                                         </label>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>IBM
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>IBM
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>IBM Cloud
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>IBM Cloud
                                             </li>
                                             <li className="links"
-                                                onClick={() => this.props.history.push("/ibm")}>IBM Cognos
+                                                onClick={() => this.props.history.push("/ibm-cloud")}>IBM Cognos
                                             </li>
                                         </ul>
 

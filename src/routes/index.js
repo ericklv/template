@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {Route, Switch} from "react-router-dom";
 import {Redirect} from "react-router";
-import {AboutUs, Ant, Error, Home, Ibm, ContactUs} from "../pages";
 import {BaseLayout} from "../components";
 import PrivateRoute from "./PrivateRoute";
+import {AboutUs, Ant, ContactUs, Error, Home, Ibm, IbmIA} from "../pages";
 
 export default class Routes extends Component {
     render() {
@@ -25,9 +25,15 @@ export default class Routes extends Component {
                     </BaseLayout>
                 </PrivateRoute>
                 <PrivateRoute exact
-                              path="/ibm">
+                              path="/ibm-cloud">
                     <BaseLayout {...this.props}>
                         <Ibm/>
+                    </BaseLayout>
+                </PrivateRoute>
+                <PrivateRoute exact
+                              path="/ibm-ia">
+                    <BaseLayout {...this.props}>
+                        <IbmIA/>
                     </BaseLayout>
                 </PrivateRoute>
                 <PrivateRoute exact

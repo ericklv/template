@@ -53,7 +53,7 @@ export default class Home extends Component {
                                 la nube. Ant ERP funciona en la nube, pero no en cualquier nube, usamos la nube de
                                 IBM.</p>
                             <Button style={{width: "100px"}}
-                                    onClick={() => this.props.history.push("/ibm")}>Leer más</Button>
+                                    onClick={() => this.props.history.push("/ibm-cloud")}>Leer más</Button>
                         </div>
                     </div>
                     <div className="home-sub-info ia-cloud-background">
@@ -67,7 +67,7 @@ export default class Home extends Component {
                                 soluciones de IA que se Ant ERP funciona en la nube, pero no en cualquier nube, usamos
                                 la nube de IBM. integren con su infraestructura y su estrategia de datos .</p>
                             <Button style={{width: "100px"}}
-                                    onClick={() => this.props.history.push("/ibm")}>Leer más</Button>
+                                    onClick={() => this.props.history.push("/ibm-ia")}>Leer más</Button>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
-.ibm-content{
+.ibm-content {
   background: #f0f2f4;
-  .ibm-content-text{
+  .ibm-content-text {
     background: white;
     padding: 0;
     display: flex;
@@ -16,6 +16,16 @@
       @media (max-width: 767px) {
         min-width: 100%;
       }
+    }
+
+    .ant-ia-banner {
+      min-height: 400px;
+      background: url("./res/images/ibm-cloud.jpeg") center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
     }
 
     .ant-text {
@@ -53,21 +63,21 @@
     div {
       width: 50%;
       display: flex;
-      align-items: flex-start!important;
+      align-items: flex-start !important;
       flex-direction: column;
       flex-wrap: wrap;
-      @media (max-width: 600px ) {
+      @media (max-width: 600px) {
         width: 100%;
       }
       .about {
         width: 100%;
-        p{
+        p {
           text-align: center;
           margin: 10px;
-          width: 140px!important;
+          width: 140px !important;
         }
         display: flex;
-        flex-direction: row!important;
+        flex-direction: row !important;
         justify-content: space-evenly;
       }
     }

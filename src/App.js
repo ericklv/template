@@ -16,7 +16,7 @@ class App extends Component {
     render() {
 
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes {...this.state}
                         {...this.props}/>
             </BrowserRouter>

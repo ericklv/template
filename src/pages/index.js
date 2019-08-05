@@ -5,5 +5,6 @@ export {default as AboutUs} from "./about-us";
 export {default as ContactUs} from "./contact-us";
 export {default as Services} from "./services";
 export {default as Ant} from "./ant";
-export {default as Ibm} from "./ibm";
+export {default as Ibm} from "./ibm-cloud";
+export {default as IbmIA} from "./ibm-ia";
 export {default as Login} from "./login";
