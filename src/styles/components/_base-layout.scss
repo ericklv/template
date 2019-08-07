@@ -23,6 +23,7 @@ p {
 }
 
 .base-layout {
+  width: 100vw;
   &-header {
     border-bottom: 1px solid #e8e8e8;
     display: flex;
@@ -87,16 +88,6 @@ p {
     height: 32px;
     background: rgba(255, 255, 255, .2);
     margin: 16px;
-  }
-
-  .logoVersion {
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    margin: 16px;
-    border-bottom: 1px solid gray;
   }
 
   .projectTitle {
@@ -186,6 +177,12 @@ p {
   }
 }
 
+.invert-color{
+  filter: invert(1);
+  height: 40%;
+  //min-height: ;
+}
+
 .ant-toogle {
   -webkit-box-shadow: 0px 0px 12px -2px rgba(110,110,110,1);
   -moz-box-shadow: 0px 0px 12px -2px rgba(110,110,110,1);
@@ -198,4 +195,46 @@ p {
   position: fixed;
   right: 0;
   bottom: 30vh;
+}
+
+.sider {
+  .ant-drawer-content-wrapper {
+    .ant-drawer-content {
+      .ant-drawer-wrapper-body {
+        color: gray;
+        background-color: white;
+
+        .ant-drawer-body {
+          padding: 0;
+
+          .ant-menu, .ant-menu-dark, .ant-menu-root, .ant-menu-inline {
+            background: white;
+
+            .ant-menu-item {
+              background: white;
+            }
+
+            .ant-menu-item-selected {
+              background: #e6f7ff;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.logoVersion {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  margin: 16px;
+  border-bottom: 1px solid gray;
+}
+
+.overflow-y {
+  overflow-y: auto;
 }
