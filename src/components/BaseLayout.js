@@ -86,7 +86,7 @@ export default class BaseLayout extends Component {
                 </Drawer>
                 <Layout>
                     <Layout.Header className="base-layout-header">
-                        <div>
+                        <div className="header-grid">
                             <Icon className="trigger"
                                   type={this.state.collapsed ? "menu-unfold" : "menu-fold"}
                                   onClick={this.toggle}/>
