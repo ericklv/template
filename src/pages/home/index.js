@@ -116,8 +116,10 @@ export default class Home extends Component {
                         width: "100%",
                         textAlign: "center",
                         fontSize: "2rem",
-                        fontWeight: 150,
-                        padding: "25px 20px 0 20px"
+                        background: "#323232",
+                        fontWeight: 100,
+                        color: "white",
+                        padding: "5px"
                     }}>
                         Servicios
                     </h2>

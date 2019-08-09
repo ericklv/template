@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import ant from "./../../res/images/ant.jpg"
 import {Icon} from "antd";
 
 export default class Ibm extends Component {
@@ -37,11 +36,12 @@ export default class Ibm extends Component {
                 </div>
                 <div className="about-erp home-sub-content">
                     <div className="home-sub-info background-dark-green">
-                        <h2 style={{fontSize:"1.5rem",fontWeight: 250}} >
-                            Cuando se trata de computación en la nube, no hay nada malo en tener una ventaja competitiva.
+                        <h2 style={{fontSize: "1.5rem", fontWeight: 250}}>
+                            Cuando se trata de computación en la nube, no hay nada malo en tener una ventaja
+                            competitiva.
                         </h2>
-                        <p style={{fontSize:"1.1rem"}}>
-                           IBM Cloud garantiza su integración perfecta a los entornos de nube pública y privada.
+                        <p style={{fontSize: "1.1rem"}}>
+                            IBM Cloud garantiza su integración perfecta a los entornos de nube pública y privada.
                             <br/>
                             La infraestructura es segura, escalable y flexible, lo que brinda soluciones empresariales
                             personalizadas que hacen de IBM Cloud el lider del mercado de la nube hibrida.
@@ -55,7 +55,8 @@ export default class Ibm extends Component {
                             <p><Icon type="deployment-unit"
                                      style={{fontSize: "2rem", color: "#08c"}}/> <br/>Tecnologias abiertas</p>
                             <p><Icon type="solution"
-                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>DevOps para la Innovación <br/>Empresarial</p>
+                                     style={{fontSize: "2rem", color: "#08c"}}/><br/>DevOps para la Innovación <br/>Empresarial
+                            </p>
                             <p><Icon type="pull-request"
                                      style={{fontSize: "2rem", color: "#08c"}}/><br/>Integración Híbrida</p>
                             <p><Icon type="key"
@@ -65,10 +66,18 @@ export default class Ibm extends Component {
                         </div>
                     </div>
                 </div>
-                <div style={{width: "100%", textAlign: "center", fontSize: "2rem", fontWeight: 150, padding: "25px 20px 0 20px"}}>
+                <div style={{
+                    width: "100%",
+                    textAlign: "center",
+                    fontSize: "2rem",
+                    fontWeight: 150,
+                    background: "#323232",
+                    padding: "5px",
+                    color: "white"
+                }}>
                     IBM Cloud vs la competencia
                 </div>
-                <div className="ant-clients">
+                <div className="ant-clients background-image">
                     <div className="functionalities">
                         <div className="functionality">
                             <h2>Red</h2>

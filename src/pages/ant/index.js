@@ -2,10 +2,9 @@ import React, {Component} from "react";
 import ant from "./../../res/images/ant.jpg"
 
 export default class Ant extends Component {
-
     render() {
         return (
-            <div className="ant-content">
+            <div className="ant-content background-image">
                 <div className="ant-content-text">
                     <div className="ant-text">
                         <h1 style={{fontSize: "2.2rem", fontWeight: 250, color: "#ff7832"}}>
@@ -38,8 +37,10 @@ export default class Ant extends Component {
                     width: "100%",
                     textAlign: "center",
                     fontSize: "2rem",
+                    color: "white",
+                    background: "#323232",
                     fontWeight: 150,
-                    padding: "25px 20px 0 20px"
+                    padding: "5px"
                 }}>
                     Modulos Ant
                 </div>
@@ -153,7 +154,9 @@ export default class Ant extends Component {
                     textAlign: "center",
                     fontSize: "2rem",
                     fontWeight: 150,
-                    padding: "25px 20px 0 20px"
+                    background: "#323232",
+                    color:"white",
+                    padding: "5px"
                 }}>
                     Funcionalidades
                 </div>
