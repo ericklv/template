@@ -199,3 +199,11 @@ p {
   right: 0;
   bottom: 30vh;
 }
+
+.background-image{
+  background: linear-gradient(to left,
+          rgba(253, 255, 252, 0.1),
+          rgba(2, 2, 2, 0.5)
+  ), url("./res/images/background2.jpg") center center;
+  background-size: cover;
+}

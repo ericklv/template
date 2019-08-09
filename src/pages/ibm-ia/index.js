@@ -35,7 +35,7 @@ export default class Ibm extends Component {
                         y aceleración GPU.
                     </p>
                 </div>
-                <div className="ant-clients">
+                <div className="ant-clients background-image">
                     <div className="functionalities">
                         <div className="functionality">
                             <h2>Un enfoque integrado para el hardware, el software y los datos</h2>
