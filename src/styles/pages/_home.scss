@@ -176,7 +176,12 @@
   }
 
   .home-sub-services {
-    background-color: #f7f7f7;
+    background: linear-gradient(to left,
+            rgba(253, 255, 252, 0.1),
+            rgba(2, 2, 2, 0.5)
+    ), url("./res/images/background2.jpg") center center;
+    background-size: cover;
+    //background-color: #f7f7f7;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

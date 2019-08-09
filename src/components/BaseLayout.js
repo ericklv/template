@@ -94,7 +94,7 @@ export default class BaseLayout extends Component {
                                       onClick={() => {
                                           this.props.history.push("/");
                                           this.setState({collapsed: true});
-                                      }}>Loginet Peru</span>
+                                      }}>LOGINET</span>
                             </div>
                             <Menu
                                 theme="light"
